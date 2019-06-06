@@ -71,6 +71,7 @@
     box-sizing: border-box;
 }
 .action-buttons button:hover {
+    border: 1px solid #1872ca;
     background-color: #f3f3f3;
 }
 .action-buttons button.action-buttons__main{
@@ -78,6 +79,7 @@
     background: #1872ca;
 }
 .action-buttons button.action-buttons__main:hover{
+    border: 1px solid #1872ca;
     background: #0965bf;
 }
 .float-right{
