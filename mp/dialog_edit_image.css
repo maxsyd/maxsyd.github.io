@@ -79,8 +79,12 @@
 }
 .dialog-edit-image__page-image-gallery li{
     display: inline-block;
+    margin: 2px
 }
 .dialog-edit-image__page-image-gallery li img{
     border-radius: 6px;
     cursor: pointer;
+}
+.dialog-edit-image__page-image-gallery li img:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
