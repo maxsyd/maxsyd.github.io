@@ -3,7 +3,7 @@
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-.regular-modal h4{
+.modal .regular-modal h4{
  margin-top: 0px;
 }
 .modal .regular-modal .modal-header .close{
@@ -11,7 +11,7 @@
     font-weight: 100;
     font-size: 28px;
 }
-.regular-modal .modal-header {
+.modal .regular-modal .modal-header {
     border-bottom: 1px solid #eee;
     padding: 14px 20px 10px;
 }
@@ -30,6 +30,7 @@
 }
 .selection-buttons a:hover{
     background-color: #f3f3f3;
+    text-decoration: none;
 }
 .dialog-edit-image__page-edit-tools{
     margin: 20px 10px;
@@ -49,8 +50,9 @@
 }
 .dialog-edit-image__page-edit-tools a:hover{
     background-color: #f3f3f3;
+    text-decoration: none;
 }
-.regular-modal .modal-footer {
+.modal-content.regular-modal .modal-footer {
     text-align: inherit;
 }
 .action-buttons button {
