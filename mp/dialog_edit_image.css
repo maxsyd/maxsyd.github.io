@@ -116,6 +116,9 @@
     outline: none;
     float: right;
 }
+.dialog-send-message-users__list .avatar {
+    display: inline-block;
+}
 .dialog-send-message-users__list .avatar img{
     width: 32px;
     height: 32px;
