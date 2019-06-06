@@ -98,4 +98,12 @@
 .dialog-edit-image__page-image-gallery li img:hover, .dialog-edit-image__page-image-recent li img:hover{
     opacity: 1;
 }
-
+.dialog-edit-image__page-image{
+    display: block;
+    height: 412px;
+    overflow-y: scroll;
+}
+.dialog-edit-image__page-image h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
