@@ -50,6 +50,9 @@
 .dialog-edit-image__page-edit-tools a:hover{
     background-color: #f3f3f3;
 }
+.regular-modal .modal-footer {
+    text-align: inherit;
+}
 .action-buttons button {
     background: #fff;
     cursor: pointer;
@@ -64,7 +67,7 @@
     height: 45px;
     box-sizing: border-box;
 }
-.action-buttons button .action-buttons__main{
+.action-buttons button.action-buttons__main{
     color: #fff;
     background: #1872ca;
 }
