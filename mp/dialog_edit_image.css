@@ -69,6 +69,7 @@
     vertical-align: middle;
     height: 45px;
     box-sizing: border-box;
+    outline: none;
 }
 .action-buttons button:hover {
     border: 1px solid #1872ca;
@@ -85,15 +86,16 @@
 .float-right{
     float: right;
 }
-.dialog-edit-image__page-image-gallery li{
+.dialog-edit-image__page-image-gallery li, .dialog-edit-image__page-image-recent li{
     display: inline-block;
     margin: 2px
 }
-.dialog-edit-image__page-image-gallery li img{
+.dialog-edit-image__page-image-gallery li img, .dialog-edit-image__page-image-recent li img{
     border-radius: 6px;
     cursor: pointer;
     opacity: 0.8;
 }
-.dialog-edit-image__page-image-gallery li img:hover{
+.dialog-edit-image__page-image-gallery li img:hover, .dialog-edit-image__page-image-recent li img:hover{
     opacity: 1;
 }
+
