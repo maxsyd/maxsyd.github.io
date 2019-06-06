@@ -54,6 +54,7 @@
 }
 .modal-content.regular-modal .modal-footer {
     text-align: inherit;
+    padding: 10px 20px 20px;
 }
 .action-buttons button {
     background: #fff;
@@ -75,4 +76,11 @@
 }
 .float-right{
     float: right;
+}
+.dialog-edit-image__page-image-gallery li{
+    display: inline-block;
+}
+.dialog-edit-image__page-image-gallery li img{
+    border-radius: 6px;
+    cursor: pointer;
 }
