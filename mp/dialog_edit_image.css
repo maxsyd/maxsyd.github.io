@@ -107,6 +107,7 @@
     margin-bottom: 10px;
     margin-top: 20px;
 }
+.default-input
 .dialog-send-message-users__filter input{
     display: block;
     font-size: 14px;
@@ -142,12 +143,9 @@
     margin: 10px 0 20px;
 }
 .dialog-send-message__text textarea{
-    font-size: 14px;
-    padding: 10px 12px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    outline: 0;
     resize: none;
+    box-sizing: border-box;
+    width: 100%;
 }
 .dialog-send-message-users__list{
     margin: 10px 0 20px;
@@ -158,6 +156,6 @@
     border-radius: 6px;
     border: 1px solid #ccc;
     outline: 0;
-    resize: none;
     margin-bottom: 10px;
+    background: #fff;
 }
