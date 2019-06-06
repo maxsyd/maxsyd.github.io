@@ -70,9 +70,15 @@
     height: 45px;
     box-sizing: border-box;
 }
+.action-buttons button:hover {
+    background-color: #f3f3f3;
+}
 .action-buttons button.action-buttons__main{
     color: #fff;
     background: #1872ca;
+}
+.action-buttons button.action-buttons__main:hover{
+    background: #0965bf;
 }
 .float-right{
     float: right;
@@ -84,7 +90,7 @@
 .dialog-edit-image__page-image-gallery li img{
     border-radius: 6px;
     cursor: pointer;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .dialog-edit-image__page-image-gallery li img:hover{
     opacity: 1;
