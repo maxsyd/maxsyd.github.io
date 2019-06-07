@@ -81,6 +81,7 @@
 .action-buttons button.action-buttons__main{
     color: #fff;
     background: #1872ca;
+    margin-right: 10px;
 }
 .action-buttons button.action-buttons__main:hover{
     border: 1px solid #1872ca;
