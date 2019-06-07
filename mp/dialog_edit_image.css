@@ -181,3 +181,10 @@
     vertical-align: top;
     height: 48px;
 }
+dialog-edit-image .cropper-modal {
+   background-color: #000;
+   opacity: .5;
+}
+.dialog-edit-image .cropper-bg {
+   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAAA3NCS…Jld29ya3MgQ1M26LyyjAAAABFJREFUCJlj+M/AgBVhF/0PAH6/D/HkDxOGAAAAAElFTkSuQmCC);
+}
