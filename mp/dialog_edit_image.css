@@ -170,7 +170,9 @@
     display: inline-block;
     border-radius: 6px;
 }
-
+.dialog-send-message-file__list li{
+    list-style: none;
+}
 .dialog-send-message-file__list .del{
     display: inline-block;
     margin-left: 10px;
