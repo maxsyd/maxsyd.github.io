@@ -188,3 +188,9 @@
 .dialog-edit-image .cropper-bg {
    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAAA3NCS…Jld29ya3MgQ1M26LyyjAAAABFJREFUCJlj+M/AgBVhF/0PAH6/D/HkDxOGAAAAAElFTkSuQmCC);
 }
+
+.top__login .profile-menu-item img#user-account-image {
+    width: 42px;
+    height: 42px;
+    border-radius: 24px;
+}
