@@ -73,10 +73,12 @@
     height: 45px;
     box-sizing: border-box;
     outline: none;
+    font-weight: 300;
 }
 .action-buttons button:hover {
     border: 1px solid #1872ca;
     background-color: #f3f3f3;
+    color: #1872ca;
 }
 .action-buttons button.action-buttons__main{
     color: #fff;
@@ -86,6 +88,10 @@
 .action-buttons button.action-buttons__main:hover{
     border: 1px solid #1872ca;
     background: #0965bf;
+    outline: none;
+}
+.action-buttons button.action-buttons__main:focus{
+    outline: none;
 }
 .float-right{
     float: right;
