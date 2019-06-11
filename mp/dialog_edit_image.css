@@ -79,6 +79,7 @@
     border: 1px solid #1872ca;
     background-color: #f3f3f3;
     color: #1872ca;
+    font-weight: 300;
 }
 .action-buttons button.action-buttons__main{
     color: #fff;
