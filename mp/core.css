@@ -24,7 +24,6 @@ ul.f-btn {
     border-radius: 24px;
     line-height: 14px;
     font-size: 16px;
-    padding: 13px 16px 13px 16px;
     outline: none;
     color: #1872ca;
     border: 1px solid #1872ca;
@@ -33,6 +32,9 @@ ul.f-btn {
         -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s;
+    box-sizing: border-box;
+    display: inherit;
+    padding: 14px 16px 13px 16px;
 }
 
 .f-btn__button_main{
@@ -53,6 +55,8 @@ ul.f-btn {
 }
 .f-btn__button_main:hover{
     background: #1168BD;
+    color: #fff;
+    text-decoration: none;
 }
 .f-btn__button_dd:hover{
     background: url(/img/svg/3dot_f-btn.svg) center center no-repeat, #f3f8fd;
@@ -581,7 +585,7 @@ a.header_user_photo {
 .modal-content.regular-modal .modal-footer {
     text-align: inherit;
     padding: 10px 20px 20px;
-    border-top: none;
+    wrapborder-top: none;
 }
 .action-buttons button {
     background: #fff;
