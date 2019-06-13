@@ -202,3 +202,17 @@
     border-radius: 24px;
 }
 
+.modal-content.regular-modal .modal-body {
+    padding: 20px;
+}
+.regular-modal .modal-body p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.dialog-subscribe-by-mail-body__input input{
+    width: 50%;
+    min-width: 240px;
+    box-sizing: border-box;
+}
