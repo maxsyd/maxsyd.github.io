@@ -744,3 +744,6 @@ a.header_user_photo {
     min-width: 240px;
     box-sizing: border-box;
 }
+.profile_un_cover_f-btn {
+    margin-left: 20px;
+}
