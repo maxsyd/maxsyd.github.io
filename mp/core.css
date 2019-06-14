@@ -45,7 +45,7 @@ ul.f-btn {
     background: #fff;
 }
 .f-btn__button_dd{
-    background: url(/img/svg/3dot_f-btn.svg) center center no-repeat, #fff;
+    background: url(https://mountainplanet.com/img/svg/3dot_f-btn.svg) center center no-repeat, #fff;
     background-size: 50px 14px;
     width: 64px;
     display: inline-block;
@@ -59,7 +59,7 @@ ul.f-btn {
     text-decoration: none;
 }
 .f-btn__button_dd:hover{
-    background: url(/img/svg/3dot_f-btn.svg) center center no-repeat, #f3f8fd;
+    background: url(https://mountainplanet.com/img/svg/3dot_f-btn.svg) center center no-repeat, #f3f8fd;
     background-size: 50px 14px;
 }
 /* --- панель с кнопками --- start --- */
