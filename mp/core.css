@@ -757,3 +757,6 @@ ul.dialog-send-message-users__menu li img{
     border-radius: 6px;
 }
 
+.dropdown, .dropup {
+   position: relative;
+}
