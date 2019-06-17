@@ -368,7 +368,7 @@ textarea.textarea_fw {
     position: absolute;
     right: 2px;
     top: 5px;
-    background: url("/themes/mobile/images/new/MP_Close_X.svg") no-repeat center center;
+    background: url("/images/new/MP_Close_X.svg") no-repeat center center;
     width: 26px;
     height: 26px;
     cursor: pointer;
