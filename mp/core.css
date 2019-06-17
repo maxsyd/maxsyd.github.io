@@ -747,3 +747,16 @@ a.header_user_photo {
 .profile_un_cover_f-btn {
     margin-left: 20px;
 }
+
+
+ul.dialog-send-message-users__menu {
+    padding: 6px;
+}
+ul.dialog-send-message-users__menu li {
+    margin: 6px;
+}
+ul.dialog-send-message-users__menu li img{
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+}
