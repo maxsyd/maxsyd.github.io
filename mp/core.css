@@ -760,3 +760,12 @@ ul.dialog-send-message-users__menu li img{
 .dialog-send-message-users .dropdown, .dialog-send-message-users .dropup {
   position: relative;
 }
+.dialog-send-message-users .dropdown-menu>li>a {
+   display: block;
+   padding: 3px 20px;
+   clear: both;
+   font-weight: 400;
+   line-height: 1.42857143;
+   color: #333;
+   white-space: nowrap;
+}
