@@ -585,7 +585,7 @@ a.header_user_photo {
 .modal-content.regular-modal .modal-footer {
     text-align: inherit;
     padding: 10px 20px 20px;
-    wrapborder-top: none;
+    border-top: none;
 }
 .action-buttons button {
     background: #fff;
