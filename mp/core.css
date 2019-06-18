@@ -788,3 +788,8 @@ ul.dialog-send-message-users__menu li img{
 .profile__sidebar .people_block_flex {
     width: 300px;
 }
+
+.content_block .profile_expedition__reports {
+    display: inline-block;
+    margin: 10px;
+}
