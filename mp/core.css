@@ -785,3 +785,6 @@ ul.dialog-send-message-users__menu li img{
    text-decoration: none;
    background-color: #f5f5f5;
 }
+.profile__sidebar .people_block_flex {
+    width: 300px;
+}
