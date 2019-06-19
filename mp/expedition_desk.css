@@ -2,6 +2,7 @@
     background: #fff;
     color: #00aeef;
     box-shadow: none;
+    border-bottom: 3px solid  #00aeef;
 }
 
 .profile_tabs_expedition.profile_tabs ul li {

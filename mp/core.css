@@ -798,7 +798,7 @@ ul.dialog-send-message-users__menu li img{
     margin-bottom: 40px;
 }
 
-.form_share_post .profile_addnews-avatar img {
+.profile_addnews .profile_addnews-avatar img {
     width: 50px;
     height: 50px;
     border-radius: 25px;
