@@ -35,7 +35,12 @@
     font: 300 16px/100% "Roboto",Arial;
 }
 
+.profile_nfcomm {
+  padding-bottom: 0px;
+}
 
-
-
+.u__wrap_comments_all .profile_nfcomm-add.cf.comment_form.newsfeed__block_bottom {
+    border-bottom: none;
+    min-height: 88px;
+}
 /* expedition end*/
