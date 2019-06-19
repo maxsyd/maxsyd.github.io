@@ -794,10 +794,6 @@ ul.dialog-send-message-users__menu li img{
     margin: 10px;
 }
 
-.profile_addnews {
-    margin-bottom: 40px;
-}
-
 .profile_addnews .profile_addnews-avatar img {
     width: 50px;
     height: 50px;
@@ -818,4 +814,7 @@ ul.dialog-send-message-users__menu li img{
     width: 490px;
     max-width: 490px;
     height: 36px;
+}
+.n_profile_nfpost:first-child {
+    margin: 20px 10px 40px 0;
 }
