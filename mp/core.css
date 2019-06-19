@@ -834,3 +834,16 @@ ul.dialog-send-message-users__menu li img{
 .n_profile_nfpost:first-child {
     margin: 40px 10px 40px 0;
 }
+span.message_unread{
+    background: #EF5350;
+    padding: 1px 5px 1px;
+    min-width: 10px;
+    color: white;
+    width: fit-content;
+    border-radius: 25px;
+    font-weight: 300;
+    float: right;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 16px;
+}
