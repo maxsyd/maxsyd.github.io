@@ -26,7 +26,7 @@
     background: none;
 }
 
-.my__tabs_block .my_tabs li .active_page{
+.my__tabs_block .my_tabs li.active_page{
     border-bottom: 2px solid #00aeef;
 }
 
