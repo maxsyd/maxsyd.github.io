@@ -1,0 +1,13 @@
+.profile_tabs_expedition.profile_tabs ul li.ui-state-active a, .profile_tabs_expedition.profile_tabs ul li.active a {
+    background: #fff;
+    color: #00aeef;
+    box-shadow: none;
+}
+
+
+
+.profile_tabs_expedition.profile_tabs ul li {
+    border: none;
+}
+
+
