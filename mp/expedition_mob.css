@@ -21,18 +21,17 @@
     top: 28px;
 }
 
-.newsfeed__block_top {
+.tabs__content .newsfeed__block_top {
     border: none;
     background: none;
 }
 
-.my_tabs li .active_page{
+.my__tabs_block .my_tabs li .active_page{
     border-bottom: 2px solid #00aeef;
 }
 
-.my_tabs li {
-    width: initial;
-    padding: 5px 20px;
+.my__tabs_block .my_tabs li {
+
     font: 300 16px/100% "Roboto",Arial;
 }
 
