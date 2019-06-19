@@ -794,7 +794,7 @@ ul.dialog-send-message-users__menu li img{
     margin: 10px;
 }
 
-.profile_addnews .profile_addnews-avatar img {
+.form_share_post .profile_addnews-avatar img {
     width: 50px;
     height: 50px;
     border-radius: 25px;
@@ -815,6 +815,22 @@ ul.dialog-send-message-users__menu li img{
     max-width: 490px;
     height: 36px;
 }
+.form_share_post li.mime.mime-image {
+    margin: 10px 0 0 62px;
+    color: #91a0b0;
+    font-weight: 300;
+}
+.form_share_post li.mime.mime-image span.file_upload_remove_link {
+    color: #EF5350;
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.form_share_post li.mime.mime-image span.file_upload_remove_link:hover {
+    opacity: 0.9;
+}
+
 .n_profile_nfpost:first-child {
     margin: 40px 10px 40px 0;
 }
