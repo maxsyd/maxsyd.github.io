@@ -847,3 +847,7 @@ span.message_unread{
     text-align: center;
     line-height: 16px;
 }
+
+.comment_form .profile_addnews-avatar img {
+    border-radius: 24px;
+}
