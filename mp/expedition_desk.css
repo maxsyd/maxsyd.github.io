@@ -1,8 +1,8 @@
 .profile_tabs_expedition.profile_tabs ul li.ui-state-active a, .profile_tabs_expedition.profile_tabs ul li.active a {
-    background: #fff;
-    color: #00aeef;
     box-shadow: none;
-    border-bottom:3px solid #00aeef;
+    background: none;
+    color: #1872ca;
+    border-bottom: 3px solid #1872ca;
 }
 
 .profile_tabs_expedition.profile_tabs ul li {
@@ -22,6 +22,6 @@
 
 .profile_tabs_expedition.profile_tabs ul.ui-tabs-nav li a:hover {
     background: none;
-    color: #1872ca;
-    border-bottom: 3px solid #1872ca;
+    color: #00aeef;
+    border-bottom:3px solid #00aeef;
 }
