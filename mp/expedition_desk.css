@@ -4,13 +4,17 @@
     box-shadow: none;
 }
 
-
-
 .profile_tabs_expedition.profile_tabs ul li {
     border: none;
 }
 
 
-.profile_tabs {
-    text-align: left;
+.profile_tabs_expedition.profile_tabs ul li a {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.profile_tabs_expedition.profile_tabs {
+    border-bottom: 1px solid #d7e3e3;
+    margin-bottom: 40px;
 }

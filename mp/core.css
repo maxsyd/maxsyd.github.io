@@ -793,3 +793,29 @@ ul.dialog-send-message-users__menu li img{
     display: inline-block;
     margin: 10px;
 }
+
+.profile_addnews {
+    margin-bottom: 40px;
+}
+
+.form_share_post .profile_addnews-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.form_share_post .profile_addnews-submit button {
+    background: none;
+    color: #1872ca;
+    font-size: 24px;
+    margin-right: 6px;
+}
+
+.form_share_post .profile_addnews-submit input[type="submit"] {
+    height: 50px;
+}
+.form_share_post .profile_addnews-txt textarea {
+    width: 490px;
+    max-width: 490px;
+    height: 36px;
+}
