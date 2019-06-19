@@ -794,40 +794,40 @@ ul.dialog-send-message-users__menu li img{
     margin: 10px;
 }
 
-.form_share_post .profile_addnews-avatar img {
+.mount_container .form_share_post .profile_addnews-avatar img {
     width: 50px;
     height: 50px;
     border-radius: 25px;
 }
 
-.form_share_post .profile_addnews-submit button {
+.mount_container .form_share_post .profile_addnews-submit button {
     background: none;
     color: #1872ca;
     font-size: 24px;
     margin-right: 6px;
 }
 
-.form_share_post .profile_addnews-submit input[type="submit"] {
+.mount_container .form_share_post .profile_addnews-submit input[type="submit"] {
     height: 50px;
 }
-.form_share_post .profile_addnews-txt textarea {
+.mount_container .form_share_post .profile_addnews-txt textarea {
     width: 490px;
     max-width: 490px;
     height: 36px;
 }
-li.mime.mime-image {
+.mount_container li.mime.mime-image {
     margin: 10px 0 0 62px;
     color: #91a0b0;
     font-weight: 300;
 }
-li.mime.mime-image span.file_upload_remove_link {
+.mount_container li.mime.mime-image span.file_upload_remove_link {
     color: #EF5350;
     opacity: 0.5;
     cursor: pointer;
     font-size: 18px;
     margin-left: 10px;
 }
-li.mime.mime-image span.file_upload_remove_link:hover {
+.mount_container li.mime.mime-image span.file_upload_remove_link:hover {
     opacity: 0.9;
 }
 
