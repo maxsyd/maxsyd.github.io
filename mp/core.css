@@ -815,19 +815,19 @@ ul.dialog-send-message-users__menu li img{
     max-width: 490px;
     height: 36px;
 }
-.form_share_post li.mime.mime-image {
+li.mime.mime-image {
     margin: 10px 0 0 62px;
     color: #91a0b0;
     font-weight: 300;
 }
-.form_share_post li.mime.mime-image span.file_upload_remove_link {
+li.mime.mime-image span.file_upload_remove_link {
     color: #EF5350;
     opacity: 0.5;
     cursor: pointer;
     font-size: 18px;
     margin-left: 10px;
 }
-.form_share_post li.mime.mime-image span.file_upload_remove_link:hover {
+li.mime.mime-image span.file_upload_remove_link:hover {
     opacity: 0.9;
 }
 
