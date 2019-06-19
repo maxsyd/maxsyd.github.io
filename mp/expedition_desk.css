@@ -2,7 +2,7 @@
     background: #fff;
     color: #00aeef;
     box-shadow: none;
-    border-bottom: 3px solid  #00aeef;
+    border-bottom:3px solid #00aeef;
 }
 
 .profile_tabs_expedition.profile_tabs ul li {
@@ -18,4 +18,10 @@
 .profile_tabs_expedition.profile_tabs {
     border-bottom: 1px solid #d7e3e3;
     margin-bottom: 40px;
+}
+
+.profile_tabs_expedition.profile_tabs ul.ui-tabs-nav li a:hover {
+    background: none;
+    color: #1872ca;
+    border-bottom: 3px solid #1872ca;
 }
