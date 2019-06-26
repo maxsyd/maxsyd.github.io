@@ -1,5 +1,5 @@
 .g2-2{
-    margin: 65px 0 10px 162px;
+    margin: 65px 0 10px 42px;
     width: 560px;
 }
 .g2-2__title {
@@ -25,7 +25,7 @@
     padding: 0;
 }
 .g2-2 .g2-2__form .form-group {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .g2-2 .g2-2__form .form-group .mp-formOrder__form-input {
     border: none;
@@ -38,7 +38,8 @@
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
     width: 100%;
     resize: none;
-    padding: 10px 12px;
+    padding: 10px 15px;
+        max-height: 62px;
 }
 .g2-2 .g2-2__form button{
     width: 100%;
