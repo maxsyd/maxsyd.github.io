@@ -13,7 +13,10 @@
     font-size: 16px;
     line-height: 1.2;
     text-shadow: 2px 2px 10px #000;
+    max-width: none;
+    margin: 0;
 }
 .g2-2__form fieldset.mp-formOrder__form {
     background: none;
+    border: none;
 }
