@@ -2,6 +2,9 @@
     margin: 65px 0 10px 162px;
     width: 560px;
 }
+.g2-2__title {
+    margin-bottom: .5rem;
+}
 .g2-2__title h1 {
     color: #fde800;
     font-size: 32px;
@@ -19,4 +22,5 @@
 .g2-2__form fieldset.mp-formOrder__form {
     background: none;
     border: none;
+    padding: 0;
 }
