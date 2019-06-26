@@ -37,8 +37,12 @@
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
     width: 100%;
+    resize: none;
+    padding: 10px 12px;
 }
 .g2-2 .g2-2__form button{
     width: 100%;
+    max-width: 100%;
     margin: 1rem 15px 0;
+
 }
