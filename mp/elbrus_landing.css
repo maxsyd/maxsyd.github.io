@@ -40,6 +40,7 @@
     resize: none;
     padding: 10px 15px;
         max-height: 62px;
+    outline: none;
 }
 .g2-2 .g2-2__form button{
     width: 100%;
