@@ -80,9 +80,11 @@
     background: none;
     border: none;
     padding: 0;
+    width: 100%;
 }
 .g2-2 .g2-2__form .form-group {
     margin-bottom: 0;
+    width: 100%;
 }
 .g2-2 .g2-2__form .form-group .mp-formOrder__form-input {
     margin-bottom: 15px;
