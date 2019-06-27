@@ -111,3 +111,10 @@
     top: 4px;
 }
 }
+
+@media only screen and (max-width: 1200px) and (min-width: 576px){
+.mp-carousel-content{
+    height: 460px;
+    background-image: url(/images/climb/elbrus/uploads/slide1-1300.jpg);
+}
+}
