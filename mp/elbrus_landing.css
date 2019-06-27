@@ -82,10 +82,10 @@
     padding: 0;
 }
 .g2-2 .g2-2__form .form-group {
-    margin-bottom: 15px;
+
 }
 .g2-2 .g2-2__form .form-group .mp-formOrder__form-input {
-
+    margin-bottom: 15px;
     border-radius: 8px;
 
 }
@@ -96,7 +96,6 @@
     width: 100%;
     resize: none;
     padding: 10px 15px;
-        max-height: 62px;
     outline: none;
 }
 .g2-2 .g2-2__form button{
