@@ -58,6 +58,11 @@
     margin: 30px 0 0 0;
     width: 100%;
 }
+
+.g2-2 .row{
+    margin-right: 15px;
+    margin-left: 15px;
+}
 .g2-2__title {
     margin-bottom: 1rem;
 }
