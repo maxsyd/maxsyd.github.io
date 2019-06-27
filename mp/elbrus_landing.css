@@ -94,14 +94,17 @@
     height: 36px;
 }
 .g2-2 .g2-2__form textarea{
-
     border-radius: 8px;
-
     width: 100%;
     resize: none;
     padding: 10px 15px;
     outline: none;
 }
+.g2-2 .g2-2__form textarea:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+
 .g2-2 .g2-2__form button{
     width: 100%;
     max-width: 100%;
