@@ -27,11 +27,13 @@
 }
 .g2-2 .g2-2__form .form-group {
     margin-bottom: 15px;
+        width: -webkit-fill-available;
 }
 .g2-2 .g2-2__form .form-group .mp-formOrder__form-input {
     border: none;
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    width: 100%;
 }
 .g2-2 .g2-2__form textarea{
     border: none;
