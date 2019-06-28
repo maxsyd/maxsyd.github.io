@@ -53,6 +53,10 @@
     margin: 1rem 15px 0;
     border-radius: 8px;
 }
+.mp-slider-info {
+    height: 100%;
+    background-color: rgba(36, 74, 140, 0.2);
+}
 }
 
 @media only screen and (max-width: 575px){
@@ -119,6 +123,10 @@
 @media only screen and (max-width: 1200px) and (min-width: 576px){
 .mp-carousel-content{
     height: 460px;
-    background-image: url(/images/climb/elbrus/uploads/slide1-1300.jpg);
+    background-image: url(/images/climb/elbrus/uploads/slide1-1300.jpg), rgba(26,43,73,.2);
+}
+.mp-slider-info {
+    height: 100%;
+    background-color: rgba(36, 74, 140, 0.2);
 }
 }
