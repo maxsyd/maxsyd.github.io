@@ -870,6 +870,9 @@ span.message_unread{
     white-space: nowrap;
     overflow-y: auto;
 }
+.dialog-edit-album__page-main__list li {
+    position: relative;
+}
 .dialog-edit-album__page-main__list li img {
     border-radius: 6px;
 }
