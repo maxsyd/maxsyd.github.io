@@ -872,7 +872,6 @@ span.message_unread{
 }
 .dialog-edit-album__page-main__list li img {
     border-radius: 6px;
-    opacity: 0.8;
 }
 .dialog-edit-album__page-main__list li.active img {
     width: 150px;
