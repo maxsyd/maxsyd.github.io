@@ -626,14 +626,14 @@ a.header_user_photo {
     float: right;
 }
 .dialog-edit-image__page-image-gallery li, .dialog-edit-image__page-image-recent li, .dialog-edit-album__page-image-gallery_list li{
-    display: inline-block;
+  display: inline-block;
 }
-.dialog-edit-image__page-image-gallery li img, .dialog-edit-image__page-image-recent li img{
+.dialog-edit-image__page-image-gallery li img, .dialog-edit-image__page-image-recent li img, .dialog-edit-album__page-image-gallery_list li img{
+    opacity: 0.8;
     border-radius: 6px;
     cursor: pointer;
-    opacity: 0.8;
 }
-.dialog-edit-image__page-image-gallery li img:hover, .dialog-edit-image__page-image-recent li img:hover{
+.dialog-edit-image__page-image-gallery li img:hover, .dialog-edit-image__page-image-recent li img:hover, .dialog-edit-album__page-image-gallery_list li img:hover{
     opacity: 1;
 }
 .dialog-edit-image__page-image{
