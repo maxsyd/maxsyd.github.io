@@ -884,3 +884,16 @@ span.message_unread{
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
+
+span.primary_foto_p {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    top: 45%;
+    right: 3px;
+    padding: 5px 10px;
+    background: #00aeef;
+    color: #fff;
+    border-radius: 6px 0 0 6px;
+    box-shadow: -4px 3px 4px #0000005c;
+}
