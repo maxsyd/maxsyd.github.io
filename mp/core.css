@@ -863,6 +863,22 @@ span.message_unread{
     outline: 0;
     resize: none;
 }
+.dialog-edit-album__page-main__list {
+    overflow-x: hidden;
+    height: 212px;
+    padding: 5px;
+    white-space: nowrap;
+    overflow-y: auto;
+}
 .dialog-edit-album__page-main__list li img {
     border-radius: 6px;
+    opacity: 0.8;
+}
+.dialog-edit-album__page-main__list li.active img {
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+    box-shadow: 0 0 0px 1px #00aeef;
+    padding: 5px;
+    border-radius: 80px;
 }
