@@ -881,4 +881,7 @@ span.message_unread{
     box-shadow: 0 0 0px 1px #00aeef;
     padding: 5px;
     border-radius: 80px;
+-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
