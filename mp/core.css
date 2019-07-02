@@ -368,7 +368,7 @@ textarea.textarea_fw {
     position: absolute;
     right: 2px;
     top: 5px;
-    background: url("/images/new/MP_Close_X.svg") no-repeat center center;
+    background: url(/themes/design/css/images/new/MP_Close_X.svg) no-repeat center center;
     width: 26px;
     height: 26px;
     cursor: pointer;
@@ -862,4 +862,7 @@ span.message_unread{
     border: 1px solid #ccc;
     outline: 0;
     resize: none;
+}
+.dialog-edit-album__page-main__list li img {
+    border-radius: 6px;
 }
