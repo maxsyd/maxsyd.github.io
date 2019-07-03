@@ -898,3 +898,6 @@ span.primary_foto_p {
     border-radius: 6px 0 0 6px;
     box-shadow: -4px 3px 4px #0000005c;
 }
+.hide {
+   display: none !important;
+}
