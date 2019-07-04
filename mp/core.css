@@ -901,3 +901,11 @@ span.primary_foto_p {
 .hide {
    display: none !important;
 }
+
+.explore.explore--map .left--container {
+   float: none;
+}
+
+.explore.explore--map .left--container.left--container-with-map {
+   float: left;
+}
