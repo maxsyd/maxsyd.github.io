@@ -1,53 +1,115 @@
+          <h2>TESTIMONIALS</h2>
+          <div class="container">
+            <div class="mp-responsive slick-initialized slick-slider"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
+              <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4550px; transform: translate3d(-1750px, 0px, 0px);">
 
-    <h2>YOUR ADVENTURE EXPERTS</h2>
-    <div class="container">
-        <div class="mp-responsive slick-initialized slick-slider"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
-                            <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4550px; transform: translate3d(-1050px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" tabindex="-1" style="width: 350px;">
-
-
-
-
-<div class="mp-testimonails__item">
-                        <h3>GODFREY SIDE</h3>
-                        <p>
-                            Godfrey has worked 17 years as a guide, 4 years as an assistant guide and another 4 years as a porter for a total of 26 years of work experience on the mountain. This makes him our most experienced guide and we are proud to have him with us!</p>
+                <div class="slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" tabindex="-1" style="width: 350px;">
+                  <div class="mp-testimonails__item">
+                    <h3>MICHAEL, Tripadvisor</h3>
+                    <p>
+                      Altezza was exceptionally professional and customer focused from start to finish. Our guide and driver Vincent was taking very good care of us, showing us the best spots, communicating with rangers and other guides to make every day successful.                        </p>
                     </div>
-                </div><div class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" tabindex="-1" style="width: 350px;">
+                  </div>
 
-
-<div class="mp-testimonails__item">
-                        <h3>GABRIEL N. MINJA</h3>
-                        <p>
-                            Gabriel has been a mountain guide for 18 of his 46 years and is one of our most experienced guides. We are thankful for his hard work and dedication. He states his hobby as "hard work" and it shows! </p>
+                  <div class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" tabindex="-1" style="width: 350px;">
+                  <div class="mp-testimonails__item">
+                    <h3>CHARLES, TourRadar</h3>
+                    <p>
+                      Joseph, Julius, Philimone, and all the assistants made us feel safe and welcome. Anna, our goto person for logistics had everything at her finger tips. Happy to recommend Altezza for Kilimanjaro !                        </p>
                     </div>
-                </div><div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 350px;">
+                  </div>
 
-
-
-
-
-<div class="mp-testimonails__item">
-                        <h3>BARIKI A. NYAKI</h3>
-                        <p>
-                            Bariki has 17 years of experience working as a climbing guide and has been around to see a lot of changes on Kilimanjaro in his 47 years. He has climbed every route on Kilimanjaro as well as several other peaks in Tanzania including Mount Meru and Oldoinyo Lengai.</p>
+                  <div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 350px;">
+                  <div class="mp-testimonails__item">
+                    <h3>CARY, NORTH CAROLINA</h3>
+                    <p>
+                      Altezza facilitated a fantastic climb Mount Kilimanjaro . Thanks Demitry for being a prompt and great communicator. The gear list and ground arrangements were on point. Very special thanks.                        </p>
                     </div>
-                </div><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" style="width: 350px;">
+                  </div>
 
-
-
-
-<div class="mp-testimonails__item">
-                        <h3>NICOLAUS V. SHIRIMA</h3>
-                        <p>
-                            Nicolaus Shirima has been a mountain guide for 10 years and before that worked as a camp cook for 2 years and a porter for 3 years. He is interested in all aspects of climbing and works hard to get everyone up the mountain.</p>
+                  <div class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 350px;">
+                  <div class="mp-testimonails__item">
+                    <h3>LAUREN, TourRadar</h3>
+                    <p>
+                      I was very impressed how efficient and knowledgeable our guides were. I was also impressed how much wonderful food was provided. Nothing was missed. Our guides and porters did everything in their power to make sure we made it to the summit                        </p>
                     </div>
-                </div>
+                  </div>
 
-</div></div>
+
+                  <div class="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" style="width: 350px;">
+                  <div class="mp-testimonails__item">
+                    <h3>!!!ABRIEL N. MINJA</h3>
+                    <p>
+                      Gabriel has been a mountain guide for 18 of his 46 years and is one of our most experienced guides. We are thankful for his hard work and dedication. He states his hobby as "hard work" and it shows!</p>
+                    </div>
+                  </div>
+
+                  <div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" tabindex="-1" style="width: 350px;">
+                  <div class="mp-testimonails__item">
+                    <h3>!!!BARIKI A. NYAKI</h3>
+                    <p>
+                      Bariki has 17 years of experience working as a climbing guide and has been around to see a lot of changes on Kilimanjaro in his 47 years. He has climbed every route on Kilimanjaro as well as several other peaks in Tanzania including Mount Meru and Oldoinyo Lengai.</p>
+                    </div>
+                  </div>
+
+                  <div class="slick-slide slick-current slick-active" data-slick-index="3" aria-hidden="false" tabindex="0" style="width: 350px;">
+                  <div class="mp-testimonails__item">
+                    <h3>CHARLES, TourRadar</h3>
+                    <p>
+                      Joseph, Julius, Philimone, and all the assistants made us feel safe and welcome. Anna, our goto person for logistics had everything at her finger tips. Happy to recommend Altezza for Kilimanjaro !                        </p>
+                    </div>
+                  </div>
+
+                  <div class="slick-slide slick-active" data-slick-index="4" aria-hidden="false" tabindex="0" style="width: 350px;">
+                  <div class="mp-testimonails__item">
+                    <h3>CARY, NORTH CAROLINA</h3>
+                    <p>
+                      Altezza facilitated a fantastic climb Mount Kilimanjaro . Thanks Demitry for being a prompt and great communicator. The gear list and ground arrangements were on point. Very special thanks.                        </p>
+                    </div>
+                  </div>
+
+                  <div class="slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" tabindex="-1" style="width: 350px;">
+                  <div class="mp-testimonails__item">
+                    <h3>LAUREN, TourRadar</h3>
+                    <p>
+                      I was very impressed how efficient and knowledgeable our guides were. I was also impressed how much wonderful food was provided. Nothing was missed. Our guides and porters did everything in their power to make sure we made it to the summit                        </p>
+                    </div>
+                  </div>
+
+                  <div class="slick-slide slick-cloned" data-slick-index="6" aria-hidden="true" tabindex="-1" style="width: 350px;">
+                  <div class="mp-testimonails__item">
+                    <h3>GHB59, Tripadvisor</h3>
+                    <p>
+                      Just completed a successful summit of Kilimanjaro with Altezza and the experience was excellent. We had 11 in the group with various levels of experience and Joseph and his team did a fantastic job of keeping everyone on track to summit.                        </p>
+                    </div>
+                  </div>
+
+                  <div class="slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" tabindex="-1" style="width: 350px;">
+                  <div class="mp-testimonails__item">
+                    <h3>MICHAEL, Tripadvisor</h3>
+                    <p>
+                      Altezza was exceptionally professional and customer focused from start to finish. Our guide and driver Vincent was taking very good care of us, showing us the best spots, communicating with rangers and other guides to make every day successful.                        </p>
+                    </div>
+                  </div>
+
+                  <div class="slick-slide slick-cloned" data-slick-index="8" aria-hidden="true" tabindex="-1" style="width: 350px;">
+                  <div class="mp-testimonails__item">
+                    <h3>CHARLES, TourRadar</h3>
+                    <p>
+                      Joseph, Julius, Philimone, and all the assistants made us feel safe and welcome. Anna, our goto person for logistics had everything at her finger tips. Happy to recommend Altezza for Kilimanjaro !                        </p>
+                    </div>
+                  </div>
+
+                  <div class="slick-slide slick-cloned" data-slick-index="9" aria-hidden="true" tabindex="-1" style="width: 350px;">
+                    <div class="mp-testimonails__item">
+                      <h3>CARY, NORTH CAROLINA</h3>
+                      <p>
+                        Altezza facilitated a fantastic climb Mount Kilimanjaro . Thanks Demitry for being a prompt and great communicator. The gear list and ground arrangements were on point. Very special thanks.                        </p>
+                      </div>
+                    </div></div></div>
 
 
 
 
                     <button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button></div>
-    </div>
-
+                  </div>
