@@ -1,1 +1,53 @@
-hello world test
+
+    <h2>YOUR ADVENTURE EXPERTS</h2>
+    <div class="container">
+        <div class="mp-responsive slick-initialized slick-slider"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
+                            <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4550px; transform: translate3d(-1050px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" tabindex="-1" style="width: 350px;">
+
+
+
+
+<div class="mp-testimonails__item">
+                        <h3>GODFREY SIDE</h3>
+                        <p>
+                            Godfrey has worked 17 years as a guide, 4 years as an assistant guide and another 4 years as a porter for a total of 26 years of work experience on the mountain. This makes him our most experienced guide and we are proud to have him with us!</p>
+                    </div>
+                </div><div class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" tabindex="-1" style="width: 350px;">
+
+
+<div class="mp-testimonails__item">
+                        <h3>GABRIEL N. MINJA</h3>
+                        <p>
+                            Gabriel has been a mountain guide for 18 of his 46 years and is one of our most experienced guides. We are thankful for his hard work and dedication. He states his hobby as "hard work" and it shows! </p>
+                    </div>
+                </div><div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 350px;">
+
+
+
+
+
+<div class="mp-testimonails__item">
+                        <h3>BARIKI A. NYAKI</h3>
+                        <p>
+                            Bariki has 17 years of experience working as a climbing guide and has been around to see a lot of changes on Kilimanjaro in his 47 years. He has climbed every route on Kilimanjaro as well as several other peaks in Tanzania including Mount Meru and Oldoinyo Lengai.</p>
+                    </div>
+                </div><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" style="width: 350px;">
+
+
+
+
+<div class="mp-testimonails__item">
+                        <h3>NICOLAUS V. SHIRIMA</h3>
+                        <p>
+                            Nicolaus Shirima has been a mountain guide for 10 years and before that worked as a camp cook for 2 years and a porter for 3 years. He is interested in all aspects of climbing and works hard to get everyone up the mountain.</p>
+                    </div>
+                </div>
+
+</div></div>
+
+
+
+
+                    <button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button></div>
+    </div>
+
