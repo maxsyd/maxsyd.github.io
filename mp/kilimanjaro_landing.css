@@ -7,3 +7,7 @@
 .mp-testimonails__item .verified-by h3 {
     margin-bottom: 10px;
 }
+
+.mp-testimonails__item .verified-by .verified-by__div__imgs img {
+    max-width: 100%;
+}
