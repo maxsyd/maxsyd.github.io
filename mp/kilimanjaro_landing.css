@@ -1,0 +1,9 @@
+.verified-by__div__imgs {
+    width: 30%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mp-testimonails__item .verified-by h3 {
+    margin-bottom: 10px;
+}
