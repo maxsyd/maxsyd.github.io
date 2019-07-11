@@ -12,3 +12,7 @@
 .mp-testimonails__item .verified-by .verified-by__div__imgs img {
     max-width: 100%;
 }
+.verified-by {
+   bottom: 8px;
+   position: absolute;
+}
