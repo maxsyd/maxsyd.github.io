@@ -12,6 +12,7 @@
     color: #00aeef;
     text-align: left;
     line-height: 24px;
+    padding-left: 24px;
 }
 .mp-list-values ul{
     padding-inline-start: 20px;
