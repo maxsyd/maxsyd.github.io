@@ -26,18 +26,20 @@
 
 @media only screen and (min-width: 576px){
 .mp-list-values li{
-    color: #024285;
+color: #024285;
     text-align: left;
     line-height: 24px;
     padding-left: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 .mp-list-values ul{
     margin-bottom: 24px;
     margin-left: 153px;
+    font-size: 16px;
     background: #fff;
-    padding: 20px;
-
+    padding: 10px;
+    width: 700px;
+    border-radius: 4px;
 }
 
 }
