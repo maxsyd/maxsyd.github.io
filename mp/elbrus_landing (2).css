@@ -1,0 +1,24 @@
+.add-users-group__list li a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.left_set_create_mess ul li {
+    position: relative;
+}
+
+.left_set_create_mess .add-users-group__list li a {
+    display: block;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 4px 4px 4px 10px;
+}
+ul.add-users-group__list {
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
