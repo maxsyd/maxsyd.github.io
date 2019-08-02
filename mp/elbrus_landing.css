@@ -2,15 +2,12 @@
     list-style: none;
 }
 
-
 .mp-list-valuesul ul li{
     background: url(/images/climb/_general/check_00aeef.svg) no-repeat left top 1px;
     background-size: 16px 16px;
 }
 
 @media only screen and (max-width: 575px){
-
-
 .mp-list-values li{
     color: #00aeef;
     text-align: left;
