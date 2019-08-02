@@ -36,7 +36,7 @@ color: #024285;
     margin-bottom: 24px;
     margin-left: 153px;
     font-size: 16px;
-    background: #fff;
+    background: rgba(255,255,255,.8);
     padding: 10px;
     width: 700px;
     border-radius: 4px;
