@@ -24,3 +24,20 @@
 }
 }
 
+@media only screen and (min-width: 575px){
+.mp-list-values li{
+    color: #024285;
+    text-align: left;
+    line-height: 24px;
+    padding-left: 24px;
+    margin-bottom: 10px;
+}
+.mp-list-values ul{
+    margin-bottom: 24px;
+    margin-left: 153px;
+    background: #fff;
+    padding: 20px;
+
+}
+
+}
