@@ -3,7 +3,7 @@
 }
 
 .mp-list-values ul li{
-    background: url(https://mpsite.mpdev.info/images/climb/_general/check_00aeef.svg) no-repeat left top 1px;
+    background: url(https://mpsite.mpdev.info/images/climb/_general/check_00aeef.svg) no-repeat left top 4px;
     background-size: 16px 16px;
 }
 
@@ -12,6 +12,9 @@
     color: #00aeef;
     text-align: left;
     line-height: 24px;
+}
+.mp-list-values ul{
+    padding-inline-start: 20px;
 }
 
 }
