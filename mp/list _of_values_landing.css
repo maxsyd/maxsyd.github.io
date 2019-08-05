@@ -24,7 +24,7 @@
 }
 }
 
-@media only screen and (min-width: 576px){
+@media only screen and (min-width: 576px) and (max-width: 991px){
 .mp-list-values li{
 color: #024285;
     text-align: left;
@@ -44,6 +44,8 @@ color: #024285;
 .mp-carousel img {
     height: 350px;
 }}
+
+
 @media only screen and (min-width: 992px){
 .mp-list-values li{
 color: #024285;
