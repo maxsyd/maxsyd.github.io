@@ -24,7 +24,29 @@
 }
 }
 
-@media only screen and (min-width: 576px){
+@media only screen and (min-width: 576px) and (max-width: 991px){
+.mp-list-values li{
+color: #024285;
+    text-align: left;
+    line-height: 16px;
+    padding-left: 24px;
+    margin-bottom: 4px;
+}
+.mp-list-values ul{
+    margin-bottom: 10px;
+    background: rgba(255,255,255,.8);
+    padding: 10px 10px 10px 20px;
+    border-radius: 4px;
+}
+
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+.mp-carousel img {
+    height: 350px;
+}}
+
+
+@media only screen and (min-width: 992px){
 .mp-list-values li{
 color: #024285;
     text-align: left;
