@@ -34,3 +34,17 @@ ul.add-users-group__list {
 .add-users-group__filter{
     padding: 6px 10px 4px;
 }
+
+a.dia_right_sidebar__list-load, a.dia_right_sidebar__list-go-top {
+    text-align: center;
+    display: block;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 300;
+}
+a.dia_right_sidebar__list-load:hover, a.dia_right_sidebar__list-go-top:hover{
+    background: aliceblue;
+}
