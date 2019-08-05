@@ -47,4 +47,5 @@ a.dia_right_sidebar__list-load, a.dia_right_sidebar__list-go-top {
 }
 a.dia_right_sidebar__list-load:hover, a.dia_right_sidebar__list-go-top:hover{
     background: aliceblue;
+    text-decoration: none;
 }
