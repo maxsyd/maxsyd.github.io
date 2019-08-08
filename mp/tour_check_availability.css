@@ -26,3 +26,15 @@ input.form-check-availability__phone {
     top: 0px;
 }
 
+.is-mobile .input_field--phone .country-phone.bpnone{
+    background: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+
+}
+
+.is-mobile .input_field--phone input.form-check-availability__phone {
+    display: inline-block;
+    border: none;
+}
