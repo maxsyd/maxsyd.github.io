@@ -16,3 +16,13 @@ input.form-check-availability__phone {
     border: none;
     width: 150px;
 }
+
+.rent_input_group--phone .country-phone-selected {
+    line-height: 11px;
+    background-position: 0px 2px;
+}
+
+.rent_input_group--phone .country-phone-selected img {
+    top: 0px;
+}
+
