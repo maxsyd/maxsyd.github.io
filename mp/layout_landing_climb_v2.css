@@ -1,6 +1,8 @@
 ul.navbar-nav--contact {
     list-style: none;
     margin-top: 50px;
+    margin-bottom: 0;
+    float: right;
 }
 
 ul.navbar-nav--contact li {
