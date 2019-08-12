@@ -16,7 +16,6 @@ ul.navbar-nav--contact li {
 ul.navbar-nav--contact li span {
     color: #999;
     font-size: 14px;
-    margin-left: 4px;
 }
 .mp-contact-header-mobile.is-mobile {
     position: absolute;
@@ -25,6 +24,7 @@ ul.navbar-nav--contact li span {
 }
 .mp-contact-header-mobile.is-mobile span{
     color: #999;
+    margin-left: 4px;
 }
 
 @media only screen and (max-width: 330px){
