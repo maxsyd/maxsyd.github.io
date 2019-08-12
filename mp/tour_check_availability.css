@@ -48,6 +48,6 @@ input.form-check-availability__phone {
     background-position: 2px 6px;
     padding: 1px 0 0 20px;
 }
-.is-mobile .input_field--phone .calc-form input[type="text"] {
+.is-mobile .input_field--phone .country-phone-search {
     width: fit-content;
 }
