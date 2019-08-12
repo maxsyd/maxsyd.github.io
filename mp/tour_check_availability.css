@@ -36,9 +36,8 @@ input.form-check-availability__phone {
     border: none;
     margin-bottom: 0px;
     width: 150px;
-    font-size: 16px;
-}
 
+}
 .is-mobile .input_field--phone .country-phone-selected {
     background-position: 2px 6px;
 }
