@@ -25,6 +25,9 @@ input.form-check-availability__phone {
 .rent_input_group--phone .country-phone-selected img {
     top: 0px;
 }
+.is-mobile .input_field--phone {
+    display: contents;
+}
 .is-mobile .input_field--phone .country-phone.bpnone{
     background: #fff;
     border-radius: 4px;
