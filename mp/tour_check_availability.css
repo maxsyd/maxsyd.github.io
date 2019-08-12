@@ -34,6 +34,7 @@ input.form-check-availability__phone {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     height: 38px;
+    width: 100%;
 }
 .is-mobile .input_field--phone input.form-check-availability__phone {
     display: inline-block;
