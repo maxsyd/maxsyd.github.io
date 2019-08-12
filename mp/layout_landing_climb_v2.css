@@ -17,3 +17,6 @@ ul.navbar-nav--contact li span {
     color: #999;
     font-size: 14px;
 }
+.mp-contact-header-mobile.is-mobile span{
+    color: #999;
+}
