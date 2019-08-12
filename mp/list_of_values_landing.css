@@ -67,16 +67,3 @@ color: #024285;
 }
 
 
-ul.navbar-nav--contact {
-    list-style: none;
-    margin-top: 50px;
-}
-
-ul.navbar-nav--contact li {
-    display: inline-block;
-    margin-left: 20px;
-}
-
-ul.navbar-nav--contact li a {
-    color: #00aeef;
-}
