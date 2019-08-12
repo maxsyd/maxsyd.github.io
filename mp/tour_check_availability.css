@@ -52,7 +52,7 @@ input.form-check-availability__phone {
     width: fit-content;
 }
 
-.is-mobile .input_field--phone .input_field input:focus {
+.is-mobile .input_field--phone .form-check-availability__phone:focus {
     border:none;
     box-shadow: none;
 }
