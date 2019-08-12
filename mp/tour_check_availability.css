@@ -25,16 +25,20 @@ input.form-check-availability__phone {
 .rent_input_group--phone .country-phone-selected img {
     top: 0px;
 }
-
 .is-mobile .input_field--phone .country-phone.bpnone{
     background: #fff;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
-
 }
-
 .is-mobile .input_field--phone input.form-check-availability__phone {
     display: inline-block;
     border: none;
+    margin-bottom: 0px;
+    width: 150px;
+    font-size: 16px;
+}
+
+.is-mobile .input_field--phone .country-phone-selected {
+    background-position: 2px 6px;
 }
