@@ -1,0 +1,53 @@
+.guideform{
+    margin: 40px 0;
+}
+.guideform__greeting{
+    text-align: center;
+}
+.guideform__greeting_bold{
+    font-size: 28px;
+    color: #00aeef;
+}
+.guideform__greeting_bold span{
+    color: #006dac;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Ubuntu',sans-serif;
+
+}
+.guideform__greeting_mid{
+    color: #00aeef;
+    font-size: 16px;
+}
+.messenger_check{
+    margin-bottom: 20px;
+}
+
+.guideform .checkbox_w_t+label {
+    padding: 0 0 0 65px;
+}
+
+.guideform__submit_btn {
+    height: 44px;
+    padding: 0 40px;
+    top: 0;
+    border: 0;
+    position: relative;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    line-height: 46px;
+    display: block;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: 500;
+    color: #3e3129;
+    background: #f68907;
+    background: -webkit-gradient(linear,left top,left bottom,from(#ffeb3b),to(#ff612f));
+    background: -webkit-linear-gradient(top,#ffeb3b 0,#ff612f 100%);
+    background: -o-linear-gradient(top,#ffeb3b 0,#ff612f 100%);
+    background: linear-gradient(to bottom,#ffeb3b 0,#ff612f 100%);
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 14px auto;
+}
