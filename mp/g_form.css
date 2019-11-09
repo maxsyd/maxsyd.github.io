@@ -51,3 +51,12 @@
     font-size: 20px;
     margin: 14px auto;
 }
+
+.guideform .section_edit_b h3 {
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.guideform .country-phone input.company_edit_input{
+    padding: 8px 10px 8px 80px;
+}
