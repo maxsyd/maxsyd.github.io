@@ -53,10 +53,15 @@
 }
 
 .guideform .section_edit_b h3 {
-    margin-top: 20px;
+    margin-top: 24px;
     font-weight: 100;
 }
 
 .guideform .country-phone input.company_edit_input{
-    padding: 8px 10px 8px 80px;
+    display: inline-block;
+    width: 200px;
+}
+
+.guideform .country-phone .country-phone-selected {
+    background-position: 2px 8px;
 }
