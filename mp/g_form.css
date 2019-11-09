@@ -65,3 +65,7 @@
 .guideform .country-phone .country-phone-selected {
     background-position: 2px 8px;
 }
+.guideform .country-phone {
+    border: 0;
+
+}
