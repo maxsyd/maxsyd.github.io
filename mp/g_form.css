@@ -75,3 +75,7 @@
 .guideform .checkbox_w_t:checked+label {
     font-weight: 300;
 }
+
+.guideform .checkbox_w_t + label:before {
+    padding-top: 8px;
+}
