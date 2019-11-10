@@ -25,6 +25,7 @@
 
 .guideform .checkbox_w_t+label {
     padding: 0 0 0 65px;
+    font-weight: 300;
 }
 
 .guideform__submit_btn {
@@ -71,10 +72,6 @@
 }
 
 
-.guideform .checkbox_w_t + label {
-    font-weight: 300;
-}
-
-.guideform .checkbox_w_t:checked + label {
+.guideform .checkbox_w_t:checked+label {
     font-weight: 300;
 }
