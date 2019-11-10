@@ -77,5 +77,7 @@
 }
 
 .guideform .checkbox_w_t + label:before {
-    padding-top: 8px;
+    padding-top: 7px;
+    font-weight: 500;
+    text-shadow: 0 2px 5px rgba(0,0,0,.3);
 }
