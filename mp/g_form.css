@@ -98,7 +98,7 @@
 
 @media (min-width: 400px) {
 
-.country-phone-selected {
+.guideform .country-phone .country-phone-selected {
     height: 32px;
     padding: 8px 0 0 20px;
     background-position: 2px 14px;
