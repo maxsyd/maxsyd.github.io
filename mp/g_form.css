@@ -96,6 +96,10 @@
     padding-right: 6px;
 }
 
+.guideform__disclaimer p {
+    margin: 0 0 10px;
+}
+
 @media (min-width: 400px) {
 
 .guideform .country-phone .country-phone-selected {
