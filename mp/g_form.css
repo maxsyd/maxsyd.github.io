@@ -98,6 +98,7 @@
 
 .guideform__disclaimer p {
     margin: 0 0 10px;
+    line-height: 22px;
 }
 
 @media (min-width: 400px) {
