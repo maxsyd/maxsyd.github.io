@@ -39,7 +39,7 @@ section.mp-landlings .col-md-3 {
 
 
 @media (max-width: 575px){
-section.mp-landlings .col-md-3.col-6 {
+section.mp-landlings .col-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
