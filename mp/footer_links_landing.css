@@ -1,0 +1,46 @@
+section.mp-landlings {
+text-align: center;
+    padding: 20px 0;
+    background-color: #0288d1;
+}
+
+section.mp-landlings a{
+    color: #fff;
+    font-weight: 300;
+}
+
+section.mp-landlings .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+@media (min-width: 576px){
+section.mp-landlings .container {
+    max-width: 540px;
+}
+}
+
+@media (min-width: 768px){
+section.mp-landlings .container {
+    max-width: 720px;
+}
+}
+
+@media (min-width: 992px){
+section.mp-landlings .container {
+    max-width: 960px;
+}
+}
+
+@media (min-width: 1200px){
+section.mp-landlings .container {
+    max-width: 1140px;
+}
+}
