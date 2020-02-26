@@ -17,13 +17,31 @@ section.mp-landlings .container {
     margin-left: auto;
 }
 
-
-
-
+section.mp-landlings .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+section.mp-landlings .col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.mp-landlinks__a {
+    margin: 10px 0;
+}
 
 @media (min-width: 576px){
 section.mp-landlings .container {
     max-width: 540px;
+}
+section.mp-landlings .col-md-3.col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 }
 
