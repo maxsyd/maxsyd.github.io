@@ -53,14 +53,26 @@ ul.blog-to-main_list li{
 .modal-dialog.blog-to-main .modal-content {
     padding-bottom: 20px;
 }
-a.btn__ora {
+.modal-dialog.blog-to-main a.btn__ora {
     color: #fff;
-    background: #F96915;
+background: #F95C00;
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, .5);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, .5);
     border-radius: 50px;
     padding: 6px 16px;
     font-size: 16px;
     font-weight: 300;
+        margin: 1em;
 }
+
+.modal-dialog.blog-to-main a.btn__ora:hover {
+    color: #fff;
+background: #F95C00;
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, .5);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, .5);;
+
+}
+
 
 .mar_1em {
     margin: 1em;
@@ -68,11 +80,11 @@ a.btn__ora {
 .mar_top_40 {
     margin-top: 40px;
 }
-.mar_1em {
-    margin: 1em;
+
+
+p.mar_1em.text-center.color2C6CA7.fs18{
+    font-weight: 300;
 }
-
-
 
 
 
