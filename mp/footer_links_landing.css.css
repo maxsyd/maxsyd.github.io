@@ -1,0 +1,161 @@
+.footer20 {
+    text-align: left;
+    padding: 0 0;
+    background-color: #0288d1;
+}
+
+.footer20 a{
+    color: #fff;
+    font-weight: 300;
+}
+
+.footer20 .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer20 .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.row-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row-flex.row:before {
+    content: none;
+}
+
+.mp-landlinks__a {
+    margin: 10px 0;
+}
+
+
+@media (max-width: 575px){
+    .footer20 .col-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 576px){
+    .footer20 .container {
+        max-width: 540px;
+    }
+
+    .footer20 .col-sm-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .footer20 .col-sm-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (min-width: 768px){
+    .footer20 .container {
+        max-width: 720px;
+    }
+
+    .footer20 .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .footer20  .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (min-width: 992px){
+    .footer20 .container {
+        max-width: 960px;
+    }
+
+    .footer20 .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .footer20  .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (min-width: 1200px){
+    .footer20 .container {
+        max-width: 1140px;
+    }
+}
+
+
+
+.row-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+
+@media (min-width: 767px) and (max-width: 992px){
+    .footer20 .col-sm-7 {
+        width: 58.33333333%;
+    }
+  
+}
+
+
+
+
+
+
+@media (min-width: 993px) and (max-width: 1199px){
+    .footer20 .col-md-9 {
+        width: 75%;
+    }
+  
+
+
+}
+
+
+
+
+
+
+@media (min-width: 1200px){
+    .footer20 .col-md-9 {
+        width: 75%;
+    }
+
+}
