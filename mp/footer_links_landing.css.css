@@ -50,7 +50,10 @@
 .footer20_bottom ul {
     display: block;
 }
-
+.footer20 .row:after, .footer20 .row:before {
+    display: table;
+    content: " ";
+}
 
 @media (max-width: 575px){
     .footer20 .col-6 {
