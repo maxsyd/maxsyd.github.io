@@ -1,0 +1,72 @@
+section.mp-landlings {
+text-align: center;
+    padding: 20px 0;
+    background-color: #0288d1;
+}
+
+section.mp-landlings a{
+    color: #fff;
+    font-weight: 300;
+}
+
+section.mp-landlings .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section.mp-landlings .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+section.mp-landlings .col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.mp-landlinks__a {
+    margin: 10px 0;
+}
+
+
+@media (max-width: 575px){
+section.mp-landlings .col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+
+}
+@media (min-width: 576px){
+section.mp-landlings .container {
+    max-width: 540px;
+}
+}
+
+@media (min-width: 768px){
+section.mp-landlings .container {
+    max-width: 720px;
+}
+}
+
+@media (min-width: 992px){
+section.mp-landlings .container {
+    max-width: 960px;
+}
+}
+
+@media (min-width: 1200px){
+section.mp-landlings .container {
+    max-width: 1140px;
+}
+}
