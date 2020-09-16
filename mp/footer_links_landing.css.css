@@ -2,6 +2,7 @@
     text-align: left;
     padding: 0 0;
     background-color: #0288d1;
+    margin-top: 20px;
 }
 
 .footer20 a{
@@ -135,8 +136,14 @@
 .footer20 .row > div{
     padding-right: 15px;
     padding-left: 15px;
+    box-sizing: border-box;
 }
-
+.footer20 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
 
 @media (min-width: 767px) and (max-width: 992px){
     .footer20 .col-sm-7 {
