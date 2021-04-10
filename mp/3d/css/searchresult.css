@@ -1,0 +1,472 @@
+body{
+  color: #000;
+}
+.roboto{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+.opensans{
+font-family: 'Open Sans', sans-serif;
+}
+.ubu{
+  font-family: 'Ubuntu',sans-serif;
+}
+p{
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+line-height: 1.5;
+}
+button{
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+a:focus{
+  outline-style: none;
+}
+.row-flex.row:before{
+  content: none;
+}
+.tshb{
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.33);
+}
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+section.directions_card{
+    background-color: #F5FAFF;
+}
+.directions_row{
+    margin-bottom: 20px;
+}
+section.directions_card h4 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.searchresult_search {
+    background: url(../img/page_main/Rectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.searchresult_search_bg_m {
+    background: url(../img/page_main/search_field_result1.png);
+    background-size: auto;
+    padding: 64px 0 24px;
+background-repeat: repeat-x;
+    background-position: 0% 100%;
+}
+.searchresult_search .search_des {
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+.search_area {
+    margin-left: 0px;
+}
+.search_area input {
+    border: 1px solid #004282;
+    height: 36px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 16px;
+    width: 68%;
+}
+
+
+button.btn__ora:hover {
+    color: #fff;
+    background: #F95C00;
+    -webkit-box-shadow: inset 0 1px 4px rgba(0,0,0,.5);
+            box-shadow: inset 0 1px 4px rgba(0,0,0,.5);
+}
+a.link_learn_more {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    margin-left: 10px;
+}
+.link_learn_more span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../img/page_main/bx_bxs-chevron-left-circle.png);
+    background-size: cover;
+    margin-left: 6px;
+    margin-bottom: -3px;
+}
+button.btn__yel {
+    color: #000;
+    background: #F6BE05;
+    border-radius: 6px;
+    padding: 6px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+}
+.row-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.searchresult_searchquery{
+
+}
+.user_searchquery {
+    font-weight:600;
+}
+.user_searchquery span{
+    color: red;
+}
+.searchresult_searchquery{
+background: #FFF8F0;
+padding: 20px 0 10px;
+font-size: 26px;
+}
+a.btn__ora {
+    color: #fff;
+    background: #F96915;
+    border-radius: 50px;
+    padding: 6px 20px;
+    font-size: 16px;
+    font-weight: 300;
+    min-width: 152px;
+}
+.postal{
+    background: #F5FAFF;
+}
+.postal .postal_body {
+padding-top: 60px;
+padding-left: 15px;
+    height: 500px;
+    position: relative;
+}
+
+.postal_beginners .postal_body {
+    background: url(../img/page_main/begi_bg.png);
+    background-size: cover;
+    background-position: 50% 50%;
+        margin: 15px 0;
+}
+.postal_challengers .postal_body {
+    background: url(../img/page_main/che_bg.png);
+    background-size: cover;
+    background-position: 50% 50%;
+        margin: 15px 0;
+}
+.postal_title p {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.postal_title h3 {
+    font-size: 26px;
+font-weight: 500;
+    margin-top: 0px
+}
+.postal_content p{
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+}
+
+.pastal_param {
+   background: #006CB8;
+    color: #fff;
+    margin-left: -15px;
+    padding: 15px;
+    margin-top: 40px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.pastal_param p {
+font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 16px;
+margin-bottom: 6px;
+}
+.pastal_param p strong{
+font-weight: normal;
+line-height: 16px;
+}
+
+.postal_contributor{
+    background: #FFF1E1;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+}
+.postal_contributor .postal_body2{
+    background: url(../img/page_main/mob_fin.png);
+    background-size: contain;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 280px;
+
+}
+
+.postal_contributor .postal_body {
+    padding-top: 30px;
+    padding-left: 0px;
+}
+
+.m_ask_us .modal-header{
+    background: url(../img/page_main/Modal_au.png);
+    height: 300px;
+    background-size: cover;
+}
+.m_ask_us .modal-header{
+    background: url(../img/page_main/Modal_au.png);
+    height: 300px;
+    background-size: cover;
+}
+.m_ask_us h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+.m_ask_us p{
+    text-align: center;
+    font-size: 18px;
+}
+.m_ask_us label{
+    font-weight: 300;
+}
+.m_ask_us .modal-body {
+    padding: 10px 25px 25px;
+}
+.m_ask_us .form-check-label{
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+.btn_modal_bottom {
+    display: flex;
+}
+.center_btn_modal{
+ margin: 0 auto;
+}
+.center_btn_modal button.btn__ora {
+    margin: 0 auto;
+        padding: 6px 35px;
+}
+.m_ask_us button.close{
+    width: 36px;
+    height: 36px;
+    background-color: #f96915;
+    border-radius: 36px;
+    opacity: 1;
+}
+.m_ask_us button.close span {
+    width: 36px;
+    height: 36px;
+    background: url(../img/page_main/maki_cross-11.png);
+    background-size: 20px;
+    background-position: 50% 50%;
+    border-radius: 36px;
+    display: block;
+    background-repeat: no-repeat;
+}
+button.btn__c4 {
+    color: #fff;
+    background: #c4c4c4;
+    border-radius: 50px;
+    padding: 6px 16px;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 6px 35px;
+    margin-right: 30px;
+}
+.postal_title p {
+    text-transform: capitalize
+}
+
+button.btn__ora_border, a.btn__ora_border {
+    color: #F96915;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 6px 20px;
+}
+button.btn__ora_border:hover, a.btn__ora_border:hover {
+    color: #ff5722;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px){
+section.directions_card .row-flex {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: auto;
+    padding: 0;
+    -ms-flex-wrap: inherit;
+        flex-wrap: inherit;
+    white-space: nowrap;
+}
+.postal_contributor .postal_body {
+height: -webkit-fit-content;
+height: -moz-fit-content;
+height: fit-content;
+}
+
+section.directions_card .col-xs-6 {
+    min-width: 80%;
+}
+
+.directions-card-body p {
+    white-space: normal;
+}
+.searchresult_search_bg_m {
+    padding: 32px 0 0px;
+}
+.searchresult_searchquery{
+font-size: 16px;
+}
+.m_ask_us .modal-header {
+    height: 180px;
+}
+.m_ask_us h3 {
+    font-size: 28px;
+}
+.m_ask_us p {
+    font-size: 14px;
+}
+}
+@media (max-width: 992px){
+.postal_contributor .postal_body {
+height: -webkit-fit-content;
+height: -moz-fit-content;
+height: fit-content;
+}
+.postal_contributor .postal_body2 {
+    background: url(../img/page_main/mob_fin2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vw;
+
+}
+}
+
+@media (min-width: 993px){
+.search_area input {
+    width: 750px;
+}
+.search_area input {
+    border: 1px solid #004282;
+    height: 72px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 44px;
+}
+
+.search_area button.btn__ora {
+    color: #fff;
+    background: #F96915;
+    border-radius: 50px;
+    padding: 6px 32px;
+    font-size: 36px;
+    font-weight: 300;
+}
+.searchresult_search .search_des {
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 0px;
+}
+
+.pastal_param p {
+font-size: 14px;
+line-height: 19px;
+}
+.postal_title p {
+font-size: 26px;
+}
+.postal_title h3 {
+font-size: 44px;
+}
+.postal_content p{
+font-size: 24px;
+width: 46%;
+line-height: 35px;
+}
+.postal .postal_body {
+    padding-top: 36px;
+    padding-left: 165px;
+
+}
+.pastal_param {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 3px 3px 0 0;
+    padding: 5px 15px;
+    left: 180px;
+    min-width: 630px;
+}
+.postal_contributor .postal_body {
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+.postal_contributor .postal_body{
+    background: url(../img/page_main/pc_fin.png);
+    background-size: contain;
+    background-position: 210% 50%;
+    background-repeat: no-repeat;
+}
+.postal_body2{
+    display: none;
+}
+.postal_contributor {
+    padding-bottom: 0px;
+}
+
+.modal-dialog {
+    width: 526px;
+    margin: 30px auto;
+}
+
+}
+
+@media (min-width: 1200px){
+.postal_contributor .postal_body{
+    background-position: 110% 50%;
+}
+.postal_content p{
+width: 520px;
+}
+}
+
+
+
+

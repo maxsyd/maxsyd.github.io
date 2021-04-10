@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title></title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/conteiner2.css">
+  <link rel="stylesheet" type="text/css" href="css/main_p.css">
+  <link rel="stylesheet" type="text/css" href="css/media.css">
+  <link rel="stylesheet" type="text/css" href="css/dialog-blog_to_main.css">
+  <link rel="stylesheet" type="text/css" href="css/footer_n.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">  
+  <link rel="stylesheet" type="text/css" href="css/pl3d.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:100,300,400,500,700,900|Ubuntu:300,400,500,700&display=swap&subset=latin-ext" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/014bdef718.js" crossorigin="anonymous"></script>
+</head>
+<body class="opensans">
+
+<nav id="mmsidebar_right" class="mmsidebar_right">
+            <div id="dismiss">
+                <i class="glyphicon glyphicon-arrow-right"></i>
+            </div>
+
+            <div class="mmsidebar-header">
+                <div class="mp_m_user_ava">
+                    <a href="" title="">
+                        <div class="img_list_ava">
+                        <img src="https://mountainplanet.com/uploads/public/b0ae7312-3fcb-4897-9114-3ec983198ba3/ava2017_crop_forcepi_42x42.jpg?cacheId=1560860334" alt="Maxim Sidora" class="js-img-user-avatar2512" title="Maxim Sidora"></div>
+                        <div class="name_user"><strong>Maxim Sidora</strong>
+                        <div class="message f_none">Profile <span class="p_prof_h_percent">is 80% complete</span></div></div>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li><a href="#">Messages<span class="ind_m_n_orange indi_q">2</span></a></li>
+                <li><a href="#">Notifications<span class="ind_m_n_orange indi_q">49</span></a></li>
+
+                <li><a href="#">Friends<span class="indi_q">27</span></a></li>
+                <li><a href="#">Followers<span class="indi_q">898</span></a></li>
+                <li><a href="#">Current Rating<span class="indi_q">1500</span></a></li>
+                <div class="line_dashed_ccc"></div>
+                <li><a href="#createSubmenu" data-toggle="collapse" aria-expanded="false">Create</a>
+                    <ul class="collapse list-unstyled" id="createSubmenu">
+                            <li><a href="#">Create a New Guided Tour</a></li>
+                            <li><a href="#">Lease Your Gear</a></li>
+                            <li><a href="#">Create Recreational Expedition</a></li>
+                            <li><a href="#">Add a New Mountain to Mountain Planet Database</a></li>
+                            <li><a href="#">Lease Your Gear</a></li>
+                            <li><a href="#">Add a New Route</a></li>
+                        </ul>
+
+                </li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Admin panel</a></li>
+                <div class="line_dashed_ccc"></div>
+                <li><a href="#">Sign off</a></li>
+            </ul>
+        </nav>
+
+        <nav id="mmsidebar_left" class="mmsidebar_left">
+            <div id="dismiss2">
+                <i class="glyphicon glyphicon-arrow-left"></i>
+            </div>
+
+            <div class="mmsidebar-header">
+                <div class="mp_m_logo">
+                    <a href="/" title="Mountain Planet">
+                        <img src="https://mountainplanet.com/themes/design/css/images/logo_MP___main.svg" title="Mountain Planet's logo">
+                    </a>
+                </div>
+            </div>
+            <ul class="list-unstyled components">
+                <li><a href="#">ADVENTURES</a></li>
+                <li><a href="#">ENCYCLOPEDIA</a></li>
+                <li><a href="#">MAGAZINE</a></li>
+                <li><a href="#">PEOPLE</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+            <ul class="list-unstyled CTAs">
+                <li><a href="" class="s_up">SIGN UP</a></li>
+                <li><a href="" class="login">LOGIN</a></li>
+            </ul>
+            <ul class="list-unstyled component">
+                <li><a href="#">Mont Blanc <span class="hot">last 4 places</span></a></li>
+                <li><a href="#">Kilimanjaro<span class="hot">hot</span></a></li>
+                <li><a href="#">Elbrus<span class="hot">2 days</span></a></li>
+                <li><a href="#">Aconcagua</a></li>
+                <li><a href="#">Cotopaxi<span class="hot">hot</span></a></li>
+            </ul>
+        </nav>
+
+
+
+
+
+<div class="full_page_content">
+
+            <nav class="navbar navbar-default main_menu_nav">
+                <div class="container">
+
+                    <a href="#" class="navbar-brand" title="Mountain Planet">
+                      <img src="https://mountainplanet.com/themes/design/css/images/logo_MP___main.svg" alt="Mountain Planet's logo" title="Mountain Planet's logo">
+                  </a>
+                  <div class="sidebars_btns">
+
+                  <div class="navbar-header left__sidebar hidden-lg hidden-md hidden-sm">
+                    <button type="button" id="mmsidebarCollapse2" class="btn btn-open navbar-btn">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="navbar-header navbar-header-right_pc">
+                    <button type="button" id="mmsidebarCollapse" class=" user_avatar_btn">
+                        <img src="https://mountainplanet.com/uploads/public/b0ae7312-3fcb-4897-9114-3ec983198ba3/ava2017_crop_forcepi_42x42.jpg?cacheId=1560860334" alt="Maxim Sidora" title="Maxim Sidora" class="js-img-user-avatar2512" id="user-account-image">
+                        <span class="ind_m_n ind_m_n_orange">51</span>
+
+                    </button>
+                </div>
+
+                </div>
+
+
+
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-nav_pc">
+                        <li><a href="#">ADVENTURES</a></li>
+                        <li><a href="#">ENCYCLOPEDIA</a></li>
+                        <li><a href="#" class="active">MAGAZINE</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right roboto navbar-nav_login">
+                      <li><a href="#">SIGN UP</a></li>
+                      <li><a class="" href="#">LOGIN</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="planet3d">
+          <div class="container-fluid">                  
+            
+            <div class="row">
+            <div class="col-md-9 col-12 col-xs-12 pc_padding-right0">
+              <div class="planetside">
+                <img src="img/target.png" alt="" class="pl_target">
+                <div class="planet3d_map ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65378484.3285782!2d11.991729204280775!3d44.844116183752654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4789459fb534be51%3A0x38c7fdcd674c57d!2z0JDQu9GM0L_Riw!5e0!3m2!1sru!2sua!4v1618007184812!5m2!1sru!2sua" 
+                  width="100%" style="border:0;" 
+                  allowfullscreen="" loading="lazy"></iframe>
+                </div>     
+              </div>
+            </div>
+
+            <div class="col-md-3 col-12 col-xs-12 borderline"> 
+              <div class="sidetub">
+                <a href=""><img src="img/pl_target2.svg" alt="">
+                </a>
+              </div>              
+                <div class="contentside scroll-block">
+
+                  
+                  <div class="row row_card3d">
+                    <div class="col-xs-12 col_card3d">
+                      <a href="https://mountainplanet.com/ranges/alps" class="link_card3d">
+                    <div class="card3d">
+                      <div class="card3d-card-img-top" style="background-image:url(https://mountainplanet.com/uploads/public/75002a50-7b82-44fa-bbd5-fd975ecdb4d9/242_crop_forcepi_290x218.jpg?cacheId=1553651259);">
+                      </div>
+                      <div class="card3d_content">
+                        <div class="card3d_content_par card3d_content_name">
+                          <div class="card3d_content_par_name">Range</div>
+                          Alps
+                        </div>
+                        <div class="card3d_content_par card3d_content_par2">
+                          <div class="card3d_content_par_name">Region(s)</div>
+                          Europe, France, Austria, Liechtenstein, Italy, Germany, Switzerland, Monaco
+                        </div>
+                        <div class="card3d_content_par card3d_content_par3">
+                          <div class="card3d_content_par_name">Max. Elevation</div>
+                          4 810 m / 15 781 ft
+                        </div>
+
+                        <div class="card3d_content_par_soc">
+                          <div class="card3d_content_par_soc_1">
+                            <span>242</span>Mountains
+                          </div>
+                          <div class="card3d_content_par_soc_2">
+                            <span>65</span>Adventure Guides
+                          </div>
+                          <div class="card3d_content_par_soc_3">
+                            <span>23</span>Guided Tours
+                          </div>                                                    
+                        </div>
+                        <button type="" class="card3d_btn">Get Your Adventure</button>
+                                            
+                      </div>
+                    </div></a>
+                  </div> 
+
+                  <div class="col-xs-12 col_card3d">
+                    <a href="https://mountainplanet.com/ranges/north-american-cordillera" class="link_card3d">
+                  <div class="card3d">
+                    <div class="card3d-card-img-top" style="background-image:url(https://mountainplanet.com/uploads/public/75eb4e5c-19ef-4898-a850-6c43fadb7431/20400_crop_forcepi_290x218.jpg?cacheId=1553651270);">
+                    </div>
+                    <div class="card3d_content">
+                      <div class="card3d_content_par card3d_content_name">
+                        <div class="card3d_content_par_name">Range</div>
+                        North American Cordillera
+                      </div>
+                      <div class="card3d_content_par card3d_content_par2">
+                        <div class="card3d_content_par_name">Region(s)</div>
+                        North America, United States (USA), Canada, Mexico, Guatemala, Haiti, Jamaica
+                      </div>
+                      <div class="card3d_content_par card3d_content_par3">
+                        <div class="card3d_content_par_name">Max. Elevation</div>
+                        6 193 m / 20 318  f
+                      </div>
+
+                      <div class="card3d_content_par_soc">
+                        <div class="card3d_content_par_soc_1">
+                          <span>242</span>Mountains
+                        </div>
+                        <div class="card3d_content_par_soc_2">
+                          <span>65</span>Adventure Guides
+                        </div>
+                        <div class="card3d_content_par_soc_3">
+                          <span>23</span>Guided Tours
+                        </div>                                                    
+                      </div>
+                      <button type="" class="card3d_btn">Get Your Adventure</button>
+                                          
+                    </div>
+                  </div></a>
+                </div> 
+
+
+                  </div>
+
+
+
+
+                </div>
+
+
+            </div>          
+            </div>
+
+
+          </div>
+        </section>        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <section class="footer20">
+              <div class="footer_com_links">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-3 col-6 col-xs-6">
+                      <a class="mp-landlinks__item" href="https://mountainplanet.com/climb/elbrus">Climbing Elbrus</a>
+                    </div>
+                    <div class="col-md-3 col-6 col-xs-6">
+                      <a class="mp-landlinks__item" href="https://mountainplanet.com/climb/aconcagua">Aconcagua climb</a>
+                    </div>
+                    <div class="col-md-3 col-6 col-xs-6">
+                      <a class="mp-landlinks__item" href="https://mountainplanet.com/climb/cotopaxi">Climb Cotopaxi</a>
+                    </div>
+                    <div class="col-md-3 col-6 col-xs-6">
+                      <a class="mp-landlinks__item" href="https://mountainplanet.com/trek/ebc">Everest basecamp trek
+                      </a>
+                    </div>
+
+                    <div class="col-md-3 col-6 col-xs-6">
+                      <a class="mp-landlinks__item" href="https://mountainplanet.com/climb/kilimanjaro">Climbing
+                        Kilimanjaro</a>
+                      </div>
+                      <div class="col-md-3 col-6 col-xs-6">
+                        <a class="mp-landlinks__item" href="https://mountainplanet.com/climb/denali">Denali climb</a>
+                      </div>
+                      <div class="col-md-3 col-6 col-xs-6">
+                        <a class="mp-landlinks__item" href="https://mountainplanet.com/climb/kazbek">Climb Kazbek</a>
+                      </div>
+                      <div class="col-md-3 col-6 col-xs-6">
+                        <a class="mp-landlinks__item" href="https://mountainplanet.com/trek/annapurna">Hiking Annapurna</a>
+                      </div>
+
+                      <div class="col-md-3 col-6 col-xs-6">
+                        <a class="mp-landlinks__item" href="https://mountainplanet.com/climb/mont_blanc">Climbing Mont Blanc
+                        </a>
+                      </div>
+                      <div class="col-md-3 col-6 col-xs-6">
+                        <a class="mp-landlinks__item" href="https://mountainplanet.com/climb/carstensz">Climb Carstensz</a>
+                      </div>
+                      <div class="col-md-3 col-6 col-xs-6">
+                        <a class="mp-landlinks__item" href="https://mountainplanet.com/climb/olympus">Climb Olympus</a>
+                      </div>
+                      <div class="col-md-3 col-6 col-xs-6">
+                        <a class="mp-landlinks__item" href="https://mountainplanet.com/trek/kailash">Mount Kailash trek</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="footer_main_inf">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-3 col-6 col-xs-6  col-sm-5">
+                        <div class="footer20_follow_us">
+                          <p>Follow us:</p>
+                          <a href="https://www.instagram.com/mountain_planet/" class="footer20_soc_links soc_links_icon_fb"></a>
+                          <a href="https://www.instagram.com/mountain_planet/" class="footer20_soc_links soc_links_icon_inst"></a>
+                          <a href="https://www.instagram.com/mountain_planet/" class="footer20_soc_links soc_links_icon_tw"></a>
+                          <a href="https://www.instagram.com/mountain_planet/" class="footer20_soc_links soc_links_icon_li"></a>
+                          <p>Copyright © 2020 Mountain Planet Pty Ltd.<br>All rights reserved.</p>
+                        </div>
+                      </div>
+                      <div class="col-md-9 col-6 col-xs-6  col-sm-7
+
+                       footer20_directions">
+                        <div class="row row-flex">
+                          <div class="col-md-4 col-sm-4 col-12 col-xs-12">
+                            <ul>
+                              <li><a href="https://mountainplanet.com/mountain-athletes">Athletes</a></li>
+                              <li><a href="https://mountainplanet.com/mountain-guides">Encyclopedia</a></li>
+                              <li><a href="https://mountainplanet.com/guided-tours">Expeditions</a></li>
+                              <li><a href="https://mountainplanet.com/rental-gear">Rental Gear</a></li>
+                              <li><a href="https://mountainplanet.com/guided-tours">Guided Tours</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-md-4 col-sm-4 col-12 col-xs-12 l_r_border">
+                            <ul class="">
+                              <li><a href="https://mountainplanet.com/Magazine">Magazine</a></li>
+                              <li><a href="https://mountainplanet.com/people/people">People</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-md-4 col-sm-4 col-12 col-xs-12">
+                          <ul>
+                              <li><a href="https://mountainplanet.com/">For guides</a>
+                              </li>
+                              <li>
+                              <a href="https://mountainplanet.com/about">About</a>
+                              </li>
+                            <li>
+                            <a href="https://mountainplanet.com/people/people">People</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="footer20_bottom">
+                <div class="container">
+
+
+                <ul class="pc_footer_ul">
+                    <li><a href="https://mountainplanet.com/terms_conditions">Terms</a></li>
+                    <li><a href="https://mountainplanet.com/privacy_policy">Privacy Policy </a></li>
+                    <li><a href="https://mountainplanet.com/payments_terms">Payments </a></li>
+                    <li><a href="https://mountainplanet.com/cookies">Cookie Use </a></li>
+                    <li><a href="https://mountainplanet.com/disclaimers">Disclaimers</a></li>
+                </ul>
+                  </div>
+
+                </div>
+
+
+                </section>
+
+
+</div><!-- end full_page_content -->
+
+
+
+
+
+
+
+
+
+<!-- Small modal -->
+
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" id="Modal20Form_Small_er" role="dialog" aria-labelledby="mySmallModalLabel">
+<div class="modal-dialog modal-sm" role="document">
+<div class="modal-content">
+<div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+<h4 class="modal-title" id="mySmallModalLabel">Small modal</h4>
+</div>
+<div class="modal-body">
+
+                <section class="content">
+                <span class="input__line input--hoshi">
+                    <input class="input__field input__field--hoshi" type="email" id="input-email">
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-email">
+                        <span class="input__label-content input__label-content--hoshi">Your email</span>
+                    </label>
+                </span>
+                <span class="input__line input--hoshi">
+                    <input class="input__field input__field--hoshi" type="password" id="input-5">
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-2" for="input-5">
+                        <span class="input__label-content input__label-content--hoshi">Your password</span>
+                    </label>
+                </span>
+                <span class="input__line input--hoshi">
+                    <input class="input__field input__field--hoshi" type="text" id="input-6">
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-3" for="input-6">
+                    <span class="input__label-content input__label-content--hoshi">Town <span class="red_input"> - Cannot be blank</span></span>
+                    </label>
+                </span>
+            </section>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<!-- Modal Login -->
+<div class="modal fade bs-example-modal-sm" id="Modal20Form_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog " role="document">
+    <!--Content-->
+    <div class="modal-content modal_w_line">
+      <!--Header-->
+      <div class="text-center">
+        <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel">WELCOME BACK!</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!--Body-->
+
+                <span class="input__line input--hoshi">
+                    <input class="input__field input__field--hoshi" type="email" id="input-email">
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-email">
+                        <span class="input__label-content input__label-content--hoshi">Your email</span>
+                    </label>
+                </span>
+                <span class="input__line input--hoshi">
+                    <input class="input__field input__field--hoshi" type="password" id="input-5">
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-3" for="input-5">
+                        <span class="input__label-content input__label-content--hoshi red_input_error">Your password</span>
+                    </label>
+                    <p class="red_input_error"> Incorrect username/email or password</p>
+                </span>
+
+
+
+                <span class="input__line input--hoshi">
+                    <input class="input__field input__field--hoshi" type="password" id="input-5">
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-3" for="input-5">
+                        <span class="input__label-content input__label-content--hoshi">Your password<span class="red_input">Cannot be blank</span></span>
+                    </label>
+
+                </span>
+                <p class="forgot_pas"> <a href="#" class="blue-text ml-1">Forgot Password?</a></p>
+
+
+                        <div class="text-center mar_1em">
+          <button type="button" class="btn btn-block btn-modal-main trans-0-4">Login</button>
+        </div>
+
+
+      <div class="mar_1em mar_top_40">
+        <p class="font-small dark-grey-text text-center d-flex justify-content-center mb-3 pt-2"> or Sign in
+          with:</p>
+
+        <div class="row my-3 d-flex justify-content-center">
+          <!--Facebook-->
+          <button type="button" class="btn btn_soc_login trans-0-4"><i class="fab fa-facebook-f text-center"></i></button>
+          <!--Twitter-->
+          <button type="button" class="btn btn_soc_login trans-0-4"><i class="fab fa-twitter"></i></button>
+          <!--Google +-->
+          <button type="button" class="btn btn_soc_login trans-0-4"><i class="fab fa-google-plus-g"></i></button>
+        </div>
+      </div>
+      <div class="mar_1em mar_top_40">
+        <p class="text-center">Not a member? <a href="#" class="">
+            Sign Up</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End Modal Login-->
+
+
+
+<!-- Modal Forgot password -->
+<div class="modal fade" id="Modal20Forgot_pas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog " role="document">
+    <!--Content-->
+    <div class="modal-content modal_w_line">
+      <!--Header-->
+      <div class="text-center">
+        <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel">PASSWORD RECOVERY</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!--Body-->
+        <p class="mar_1em">Enter your email address and we'll help you reset your password</p>
+                <span class="input__line input--hoshi">
+                    <input class="input__field input__field--hoshi" type="email" id="input-email">
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-email">
+                        <span class="input__label-content input__label-content--hoshi">Your email</span>
+                    </label>
+                </span>
+
+                        <div class="text-center mar_1em">
+          <button type="button" class="btn btn-block btn-modal-main trans-0-4">Continue</button>
+        </div>
+
+  </div>
+</div></div>
+<!--End Modal Forgot password-->
+
+<!-- Modal info -->
+<div class="modal fade" id="Modal20inform" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog " role="document">
+    <!--Content-->
+    <div class="modal-content modal_w_line">
+      <!--Header-->
+      <div class="text-center">
+        <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel">INFORMATION</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!--Body-->
+        <p class="mar_1em text-center">An information email has been sent to:</p>
+        <p class="mar_1em text-center">s-max@meta.ua</p>
+        <p class="mar_1em text-center">To change your password, find that email in your inbox and follow instructions.</p>
+        <p class="mar_1em text-center"><a href="">Resend Information Email</a></p>
+        <p class="mar_1em mar_top_40"> - Not receiving email notifications?</p>
+        <p class="mar_1em ">Check your spam folder. Sometimes things get stuck there.<br>
+        If you find the message in there, please mark the message as “Not Spam”
+        and add  <a href="mailto:info@mountainplanet.com">info@mountainplanet.com</a> to your address book.</p>
+
+        <div class="text-center mar_1em mar_top_40">
+          <button type="button" class="btn btn-block btn-modal-main trans-0-4" data-dismiss="modal" aria-label="Close">Ок</button>
+        </div>
+
+  </div>
+</div>
+</div>
+<!--End Modal info-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Modal SOMETHING IS MISSING -->
+<div class="modal fade" id="Modal20S_is_missing" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog " role="document">
+    <!--Content-->
+    <div class="modal-content modal_w_line">
+      <!--Header-->
+      <div class="text-center">
+        <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel">SOMETHING IS MISSING</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!--Body-->
+      <p class="miss_stat_info text-center"> Hey, <strong>Максим Сидора</strong>!
+      <br>      Please provide missing information to finish signing up.
+      </p>
+
+
+<p class="mar_1em mar_top_40 text-center">Please select your status</p>
+
+<div class="btn-group mar_1em user_status_" data-toggle="buttons">
+  <label class="btn btn-default_st user_status_radio">
+    <input type="radio" name="options" id="option1" autocomplete="off" > Outdoor enthusiast
+  </label>
+  <label class="btn btn-default_st user_status_radio">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Guide
+  </label>
+  <label class="btn btn-default_st user_status_radio">
+    <input type="radio" name="options" id="option3" autocomplete="off"> Athlete
+  </label>
+</div>
+
+<p class="mar_1em mar_top_40 text-center">Country</p>
+
+
+
+
+<p class="mar_1em mar_top_40 text-center">Birthday</p>
+
+
+
+       <span class="input__line input--hoshi">
+                    <input class="input__field input__field--hoshi" type="text" id="input-name">
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-name">
+                        <span class="input__label-content input__label-content--hoshi">Enter name</span>
+                    </label>
+       </span>
+
+        <div class="text-center mar_1em mar_top_40">
+          <button type="button" class="btn btn-block btn-modal-main trans-0-4" >Finish signing up</button>
+        </div>
+        <p class="mar_1em ">By clicking Sign Up, you agree with our <a target="_blank" href="https://mountainplanet.com/terms_conditions">Terms</a>
+        and that you have read our <a target="_blank" href="https://mountainplanet.com/privacy_policy">Data Use Polisy</a>,including our <a target="_blank" href="https://mountainplanet.com/cookies">Cookie Use</a> ard <a target="_blank" href="https://mountainplanet.com/disclaimers">Disclaimers</a>
+        </p>
+
+  </div>
+</div>
+</div>
+<!--End Modal SOMETHING IS MISSING-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Modal Sign up now -->
+<div class="modal fade bs-example-modal-sm" id="Modal20Sign_Up" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog " role="document">
+    <!--Content-->
+    <div class="modal-content modal_w_line">
+      <!--Header-->
+      <div class="text-center">
+        <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel">Join now – it’s free!</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!--Body-->
+            <div class="mar_1em text-center">
+        <p class="">Connect via:</p>
+
+        <div class="row my-3 d-flex justify-content-center">
+          <!--Facebook-->
+          <button type="button" class="btn btn_soc_login trans-0-4"><i class="fab fa-facebook-f text-center"></i></button>
+          <!--Twitter-->
+          <button type="button" class="btn btn_soc_login trans-0-4"><i class="fab fa-twitter"></i></button>
+          <!--Google +-->
+          <button type="button" class="btn btn_soc_login trans-0-4"><i class="fab fa-google-plus-g"></i></button>
+        </div>
+      </div>
+        <p class="mar_top_40 text-center">Create an account:</p>
+                        <span class="input__line input--hoshi">
+                    <input class="input__field input__field--hoshi" type="text" id="input-name">
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-name">
+                        <span class="input__label-content input__label-content--hoshi">Enter name</span>
+                    </label>
+                </span>
+                                <span class="input__line input--hoshi">
+                    <input class="input__field input__field--hoshi" type="text" id="input-surname">
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-surname">
+                        <span class="input__label-content input__label-content--hoshi">Enter surname</span>
+                    </label>
+                </span>
+                <span class="input__line input--hoshi">
+                    <input class="input__field input__field--hoshi" type="email" id="input-email">
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-email">
+                        <span class="input__label-content input__label-content--hoshi">Enter email</span>
+                    </label>
+                </span>
+                <span class="input__line input--hoshi">
+                    <input class="input__field input__field--hoshi" type="password" id="input-5">
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-5">
+                        <span class="input__label-content input__label-content--hoshi">Enter Password (6 letters min)<span class="red_input">Cannot be blank</span></span>
+                    </label>
+                </span>
+
+
+                        <div class="text-center mar_1em">
+          <button type="button" class="btn btn-block btn-modal-main trans-0-4">Sign up now</button>
+        </div>
+
+
+      <div class="mar_1em mar_top_40">
+        <p class="text-center">Already have an account? <a href="#" class="">
+            LOGIN</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End Modal Sign up -->
+
+<!-- Modal blog-to-main -->
+<div class="modal fade" id="Modal20_bl_to_main" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog blog-to-main" role="document">
+    <!--Content-->
+    <div class="modal-content ">
+      <!--Header-->
+      <div class="text-center header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h3 class="modal-title color2C6CA7" id="myModalLabel">Mountain Planet update!</h3>
+
+      </div>
+      <!--Body-->
+        <p class="mar_1em text-center color2C6CA7 fs18">Welcome to the new and improved Mountain Planet.com! <br>
+Great and exciting features are here to help you find your next adventure!</p>
+
+
+<ul class="blog-to-main_list">
+  <li>Browse the catalogue of selected adventures</li>
+  <li>Discover activities on the map</li>
+  <li>Check out collections of handpicked trips</li>
+  <li>Book your next adventure with us</li>
+</ul>
+
+
+
+
+        <div class="text-center mar_1em mar_top_40">
+          <a href="https://mountainplanet.com/" class="btn btn__ora trans-0-4" data-dismiss="modal" aria-label="Close">Take me to the main page</a>
+        </div>
+
+  </div>
+</div>
+</div>
+<!--End Modal info-->
+
+
+
+
+
+
+<div class="overlay"></div>
+<div class="overlay2"></div>
+
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+              <script src="js/input__line.js"></script>
+              <script type="text/javascript">
+    $(document).ready(function () {
+        $("#mmsidebar_left").mCustomScrollbar({
+            theme: "minimal"
+        });
+
+        $('#dismiss2, .overlay').on('click', function () {
+            $('#mmsidebar_left').removeClass('active');
+            $('.overlay').fadeOut();
+        });
+
+        $('#mmsidebarCollapse2').on('click', function () {
+            $('#mmsidebar_left').addClass('active');
+            $('.overlay').fadeIn();
+            $('.collapse.in').toggleClass('in');
+            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        });
+    });
+
+    $(document).ready(function () {
+       $("#mmsidebar_right").mCustomScrollbar({
+        theme: "minimal"
+    });
+
+       $('#dismiss, .overlay').on('click', function () {
+        $('#mmsidebar_right').removeClass('active');
+        $('.overlay').fadeOut();
+    });
+
+       $('#mmsidebarCollapse').on('click', function () {
+        $('#mmsidebar_right').addClass('active');
+        $('.overlay').fadeIn();
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+    });
+   });
+</script>
+
+            </body>
+            </html>

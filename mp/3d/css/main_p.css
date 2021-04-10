@@ -1,0 +1,985 @@
+body{
+  color: #000;
+}
+.roboto{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+.opensans{
+font-family: 'Open Sans', sans-serif;
+}
+.ubu{
+  font-family: 'Ubuntu',sans-serif;
+}
+p{
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+line-height: 1.5;
+}
+button{
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+a:focus{
+  outline-style: none;
+}
+.tshb{
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.33);
+}
+.main_p_cover{
+  background: url(../img/page_main/1s_cover.jpg);
+    background-size: cover;
+    padding: 160px 0 90px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.main_p_cover h1{
+color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.h1des{
+color: #fff;
+font-size: 20px;
+font-weight: 300;
+line-height: 24px;
+margin-top: 10px;
+}
+.main_p_cover-search{
+  background: #fff;
+  padding: 15px 10px;
+  width: 100%;
+  margin: 24px 0 8px;
+  border-radius: 0px
+}
+.main_p_cover-search input{
+  border:  1px solid #004282;
+  height: 36px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+button.btn__ora{
+  color: #fff;
+  background: #F96915;
+  border-radius: 50px;
+  padding: 6px 16px;
+  font-size: 16px;
+  font-weight: 300;
+}
+a.btn__ora{
+  color: #fff;
+  background: #F96915;
+  border-radius: 50px;
+  padding: 6px 16px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.tab-pane button.btn__ora{
+margin-bottom: 20px;
+}
+button.btn__ora:hover{
+  color: #fff;
+  background: #F95C00;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0,0,0,.5);
+          box-shadow: inset 0 1px 4px rgba(0,0,0,.5);
+}
+a.btn__ora:hover{
+  color: #fff;
+  background: #F95C00;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0,0,0,.5);
+          box-shadow: inset 0 1px 4px rgba(0,0,0,.5);
+}
+.search_des{
+    color: #fff;
+      font-size: 12px;
+font-weight: 300;
+}
+
+.section_standart{
+  padding: 0;
+  margin: 10px 0 0;
+  padding-bottom: 20px;
+}
+.section_title h2{
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 0px;
+}
+.section_title .h2_des{
+  font-weight: 300;
+  font-size: 18px;
+}
+.variable_priority {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.main_p_map-map{
+height: 550px;
+}
+.map_geo_tubs{
+  margin-top: 20px;
+}
+.map_geo_tubs .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+border-color: transparent;
+background: url(../img/page_main/ar_t.png) center 36px;
+    background-repeat: no-repeat;
+}
+
+
+.map_geo_tubs .nav-tabs>li>a:hover {
+    border: 1px solid transparent;
+    background: url(../img/page_main/ar_t.png) center 36px;
+    background-repeat: no-repeat;
+}
+
+.w15p{
+  width: 160px;
+  text-align: center;
+}
+.w15p img {
+    width: 26px;
+}
+.map_geo_tubs .nav-tabs>li>a {
+    height: 54px;
+    text-decoration: underline;
+    padding: 10px 6px;
+}
+.map_geo_tubs .nav-tabs {
+    border-bottom:none;
+}
+.map_geo_tubs .tab-content {
+    background: #FFF1E1;
+    padding: 15px 15px 5px;
+    border-radius: 0px;
+    margin-top: -2px;
+}
+.panel.panel_m_range {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background: none;
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-decoration: underline;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    color:#0069b0;
+    margin-bottom: 4px;
+}
+.panel_m_range ul {
+    list-style: none;
+    -webkit-padding-start:0px;
+            padding-inline-start:0px;
+    -webkit-margin-before: 1px;
+            margin-block-start: 1px;
+    text-decoration: underline;
+}
+
+.panel_m_range .panel-body {
+padding: 0px 10px 0 20px;
+}
+.tab_des{
+font-weight: 300;
+font-size: 14px;
+}
+.main_p_collections{
+  background-color: #F5FAFF;
+}
+.section_standart .section_content{
+  border-radius: 0px;
+  position: relative;
+}
+.main_p_expeditions .section_content{
+  background: url(../img/page_main/exp_2.jpg);
+  background-size: cover;
+  padding: 15px;
+  height: 500px;
+}
+.section_standart .section_content h3{
+  font-weight: 600;
+  font-size: 40px;
+}
+.main_p_expeditions .section_content-position{
+position: absolute;
+bottom: 20px;
+left: 120px;
+max-width: 90%;
+}
+.section_standart .section_content button{
+    padding: 6px 24px;
+}
+.section_standart .section_content p{
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.main_p_encyclopedia .section_content{
+  background: url(../img/page_main/enc.jpg);
+    background-size: cover;
+    background-position: 50% 70%;
+  height: 400px;
+  color: #fff;
+}
+
+.main_p_encyclopedia .section_content-position{
+position: absolute;
+top: 80px;
+left: 40px;
+max-width: 40%;
+}
+
+.main_p_instagram .section_title h2 a{
+  background: url(https://mountainplanet.com/themes/mobile/PC_pages/images/new/soc_insta.svg) no-repeat center center;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.main_p_magazine{
+  background-color: #FFF8F0;
+}
+.main_p_blogg-card{
+    -webkit-box-shadow: 0 6px 20px 0 rgba(0,0,0,.1);
+            box-shadow: 0 6px 20px 0 rgba(0,0,0,.1);
+    border: 0;
+    background-color: #fff;
+    border-radius: 0px;
+    height: 100%;
+    padding-bottom: 10px;
+}
+.main_p_blogg-card .blogg-card-img-top {
+    width: 100%;
+    height: 200px;
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    overflow: hidden;
+}
+.main_p_blogg-card h5{
+  font-size: 14px;
+    line-height: 18px;
+  font-weight: 700;
+}
+.blogg-card-body {
+    padding: 0 10px;
+    overflow: hidden;
+    color: #000;
+    text-decoration: none;
+}
+section.section_standart .main_p_blogg-card p{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+a.main_p_blogg:hover{
+text-decoration: none;
+-webkit-box-shadow: 0 1px 10px 0 rgba(109,109,109,0.4);
+        box-shadow: 0 1px 10px 0 rgba(109,109,109,0.4);
+}
+.main_p_blogg-card:hover{
+text-decoration: none;
+-webkit-box-shadow: 0 1px 10px 0 rgba(109,109,109,0.4);
+        box-shadow: 0 1px 10px 0 rgba(109,109,109,0.4);
+}
+
+
+a.link_see-all{
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+.link_see-all span{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../img/page_main/bx_bxs-chevron-left-circle.png);
+    background-size: cover;
+    margin-left: 6px;
+    margin-bottom: -3px;
+}
+
+.main_p_became_partner .section_content{
+  background: url(../img/page_main/Forguides.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+  height: 400px;
+}
+.main_p_became_partner .section_content-position{
+position: absolute;
+text-align: center;
+width: 100%;
+top:80px;
+}
+
+.main_p_platform_mp{
+  background: url(../img/page_main/last_s2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+  height: 650px;
+  color: #fff;
+}
+
+.main_p_platform_mp .section_content-position{
+margin-top: 80px;
+width: 40%
+}
+.main_p_platform_mp .section_content-position p{
+margin: 20px 0;
+font-weight: 300;
+line-height: 38px;
+}
+
+.main_p_collections h4{
+  font-size: 32px;
+  font-weight: 600;
+}
+.row-flex {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+}
+.row-flex.row:before{
+  content: none;
+}
+.main_p_collection-card {
+    -webkit-box-shadow: 0 6px 20px 0 rgba(0,0,0,.1);
+            box-shadow: 0 6px 20px 0 rgba(0,0,0,.1);
+    border: 0;
+    background-color: #fff;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    padding-bottom: 48px;
+    position: relative;
+        text-decoration: none;
+        height: 100%;
+}
+.main_p_collection-card .collection-card-img-top {
+    width: 100%;
+    height: 200px;
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    overflow: hidden;
+}
+.collection-card-body {
+    padding: 10px ;
+    color: #000;
+    text-decoration: none;
+    font-weight: 300;
+}
+.collection-card-body p {
+    margin: 0 0 0px;
+    font-weight: 300;
+}
+
+button.btn__yel {
+    color: #000;
+    background: #F6BE05;
+    border-radius: 6px;
+    padding: 6px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+}
+
+
+.main_p_map .section_content p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+}
+.collection_row {
+    margin: 40px 0 20px;
+}
+.main_p_collection-card:hover {
+    text-decoration: none;
+    -webkit-box-shadow: 0 1px 10px 0 rgba(109,109,109,0.4);
+            box-shadow: 0 1px 10px 0 rgba(109,109,109,0.4);
+}
+a.main_p_collection:hover {
+    text-decoration: none;
+    -webkit-box-shadow: 0 1px 10px 0 rgba(109,109,109,0.4);
+            box-shadow: 0 1px 10px 0 rgba(109,109,109,0.4);
+}
+
+.map_geo_tubs_nav .arrow_c{
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url(../img/page_main/arrow-right-circle.png);
+  background-size: cover;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+
+
+
+
+.map_geo_tubs_nav .nav-tabs>li>a:hover>.arrow_c {
+background: url(../img/page_main/arrow-down-circle.png);
+    background-size: cover;
+}
+.map_geo_tubs_nav .nav-tabs>li.active>a>.arrow_c {
+background: url(../img/page_main/arrow-down-circle.png);
+  background-size: cover;
+}
+
+
+
+.panel_m_range a .arrow_c{
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url(../img/page_main/arrow-right-circle.png);
+  background-size: cover;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+.panel_m_range a.collapsed .arrow_c{
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url(../img/page_main/arrow-right-circle.png);
+  background-size: cover;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+.panel_m_range a[aria-expanded="true"]>.arrow_c {
+background: url(../img/page_main/arrow-down-circle.png);
+    background-size: cover;
+}
+
+
+.main_p_encyclopedia{
+  background-color: #FFF8F0;
+}
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+.center_btn {
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.center_btn button.btn__ora {
+    margin: 0 auto;
+}
+.map_geo_tubs_nav .continent{
+width: 26px;
+height: 26px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.map_geo_tubs_nav .icon_na-png{
+background: url(../img/page_main/icon_na.png);
+    background-size: cover;
+}
+.map_geo_tubs_nav .icon_sa-png{
+background: url(../img/page_main/icon_sa.png);
+    background-size: cover;
+}
+.map_geo_tubs_nav .icon_eu-png{
+background: url(../img/page_main/icon_eu.png);
+    background-size: cover;
+}
+.map_geo_tubs_nav .icon_af-png{
+background: url(../img/page_main/icon_af.png);
+    background-size: cover;
+}
+.map_geo_tubs_nav .icon_as-png{
+background: url(../img/page_main/icon_as.png);
+    background-size: cover;
+}
+.map_geo_tubs_nav .icon_oc-png{
+background: url(../img/page_main/icon_oc.png);
+    background-size: cover;
+}
+.map_geo_tubs_nav .icon_ant-png{
+background: url(../img/page_main/icon_ant.png);
+    background-size: cover;
+}
+
+.location4collection{
+  display: none;
+}
+
+.main_p_collections .location4collection{
+  display: block;
+  margin-bottom: 6px;
+}
+.location4collection span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../img/page_main/gridicons_location.png);
+    background-size: cover;
+    vertical-align: text-top;
+    margin-right: 6px;
+    margin-left: -3px;
+}
+
+
+
+
+.user_ava_btn{
+  border: none;
+    background: none;
+    border-radius: 25px;
+}
+
+.user_ava_btn img{
+  border-radius: 25px;
+}
+.user_head_menu .dropdown-menu{
+width: 250px;
+border: none;
+-webkit-box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.40);
+        box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.40);
+}
+.user_head_menu .dropdown-menu a{
+  display: block;
+  height: 42px;
+  text-decoration: none;
+  padding: 0px 5px;
+  margin-bottom: 2px;
+  color: #000;
+}
+.user_head_menu .dropdown-menu a.first_option{
+    padding: 5px 5px;
+    margin-bottom: 0px;
+    height: 53px;
+    border-bottom: 1px solid #dedede;
+}
+
+
+.user_head_menu .dropdown-menu a:hover{
+background: #c6e5ff;
+}
+.user_head_menu .dropdown-menu a .img_list{
+  height: 42px;
+  width: 42px;
+  display: inline-block;
+}
+.user_head_menu .dropdown-menu a .name_user{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.user_head_menu .dropdown-menu a .img_list{
+position: relative;
+}
+.user_head_menu .dropdown-menu a img{
+border-radius: 8px;
+margin-right: 8px;
+    max-width: 100%;
+    max-height: 42px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 32px;
+}
+.user_head_menu .dropdown-menu a.first_option img{
+border-radius: 25px;
+}
+.user_head_menu .option_user {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    line-height: 42px;
+    font-weight: 300;
+}
+
+.user_head_menu span.indi_q {
+    float: right;
+    line-height: 42px;
+    margin-right: 10px;
+    font-weight: 300;
+}
+
+.icons_sprite {
+    float: left;
+    width: 42px;
+    height: 42px;
+    background: url(https://mountainplanet.com/themes/design/css/images/account/icons_profile.png) no-repeat;
+}
+.icon_friends {
+    background-position: center 9px;
+}
+.icon_followers {
+ background-position: center -35px;
+}
+.icon_ratings {
+ background-position: center -81px;
+}
+.icon_sign-out {
+ background-position: center -172px;
+}
+.icon_settings {
+ background-position: center -127px;
+}
+
+
+.map_geo_tubs .panel_m_range .panel-title a{
+  font-size: 14px;
+}
+
+
+.main_p_collections a h4{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* small devices (phones, less than 768px) */
+@media (max-width: 767px){
+
+.main_p_expeditions a.btn.roboto.btn__ora {
+  margin-top: 10px;
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+
+.dropdown.user_head_menu {
+    position: absolute;
+    right: 60px;
+    top: 3px;
+}
+.dropdown.user_head_menu .dropdown-menu{
+    right: -61px;
+    left: auto;
+    background: #fff;
+  }
+
+
+
+.panel_m_range a[aria-expanded="true"]>.arrow_c {
+background: url(../img/page_main/arrow-down-circle.png);
+    background-size: cover;
+}
+
+.collection-card-body p{
+    font-size: 12px;
+    line-height: 17px;
+  }
+section.section_standart .main_p_blogg-card p{
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .main_p_became_partner .section_content{
+  background: url(../img/page_main/Forguides_mob.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+  height: 410px;
+}
+.main_p_collections h4{
+  font-size: 22px;
+  font-weight: 600;
+}
+.main_p_blogg-card h5 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17px;
+}
+.main_p_platform_mp .section_content-position {
+    margin-top: 60px;
+    width: 80%;
+}
+.main_p_platform_mp{
+    background-position: 30% 50%;
+  height: 465px;
+}
+.main_p_became_partner .section_content-position{
+top:20px;
+}
+.main_p_became_partner .section_content-position button{
+margin-top: 80px;
+}
+.main_p_encyclopedia .section_content{
+    background-position: 20% 50%;
+}
+.main_p_encyclopedia .section_content-position{
+top: 60px;
+left: 20px;
+max-width: 60%;
+}
+.main_p_cover-search button{
+}
+.main_p_cover-search input {
+  width: calc(100% - 98px);
+}
+.variable_priority > .a_priority {-webkit-box-ordinal-group: 3;-ms-flex-order: 2;order: 2; }
+.variable_priority > .b_priority {-webkit-box-ordinal-group: 2;-ms-flex-order: 1;order: 1; }
+.main_p_map-map{
+height: 404px;
+}
+
+.map_geo_tubs_nav {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    white-space: nowrap;
+    margin: 0 auto;
+    padding-bottom: 0px;
+
+}
+
+
+
+.map_geo_tubs_nav .nav>li {
+  float: none;
+    display: inline-block;
+}
+.map_geo_tubs .tab-content {
+  margin-bottom: 20px;
+    margin-top: -2px;
+}
+.map_geo_tubs .nav-tabs>li>a{
+  padding: 10px 6px;
+}
+.w15p {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.map_geo_tubs {
+     margin-top: 0px;
+}
+.main_p_expeditions .section_content{
+  height: 440px;
+}
+.section_standart .section_content h3{
+  font-size: 26px;
+}
+.section_standart .section_content p{
+  font-size: 16px;
+  line-height: 20px;
+}
+.main_p_expeditions .section_content-position{
+left: 20px;
+}
+.section_title h2{
+  font-size: 26px;
+}
+.section_title .h2_des{
+  font-size: 18px;
+}
+.main_p_encyclopedia .section_content{
+  height: 280px;
+}
+
+}
+
+
+
+
+
+@media (min-width: 768px) {
+.main_p_expeditions a.btn.roboto.btn__ora {
+    margin-top: 10px;
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+
+}
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px){
+.main_p_cover-search input {
+  width: calc(100% - 98px);
+}
+.main_p_platform_mp .section_content-position {
+    margin-top: 60px;
+    width: 60%;
+}
+.main_p_platform_mp{
+  background: url(../img/page_main/last_s2.jpg);
+    background-size: cover;
+    background-position: 30% 50%;
+  height: 750px;
+  color: #fff;
+}
+.map_geo_tubs_nav {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    white-space: nowrap;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+.map_geo_tubs_nav .nav>li {
+  float: none;
+    display: inline-block;
+}
+.map_geo_tubs .tab-content {
+  margin-bottom: 20px;
+    margin-top: -1px;
+}
+.map_geo_tubs .nav-tabs>li>a{
+  padding: 10px 6px;
+}
+
+.map_geo_tubs {
+     margin-top: 0px;
+}
+}
+
+/* Large devices */
+@media (min-width: 993px) and (max-width: 1199px){
+  .w15p {
+    width: auto;
+    margin: 0 5px;
+}
+.map_geo_tubs_nav {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    white-space: nowrap;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+}
+
+
+
+/* Large devices */
+@media (min-width: 993px){
+  .main_p_cover{
+    height: 576px;
+}
+.panel_m_range a:hover>.arrow_c {
+background: url(../img/page_main/arrow-down-circle.png);
+    background-size: cover;
+}
+.main_p_cover h1{
+  font-size: 52px;
+}
+.main_p_cover-search input{
+  width: 470px;
+}
+.h1des{
+font-size: 32px;
+line-height: 32px;
+margin-top: 0px;
+font-style: normal;
+font-weight: 300;
+}
+.main_p_cover-search{
+  background: #fff;
+  padding: 15px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.search_des {
+    font-size: 18px;
+}
+.main_p_expeditions .section_content p{
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
+.main_p_expeditions .section_content button {
+  vertical-align: text-bottom;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section.main_p_became_partner {
+    display: none;
+}
+
+section.main_p_collections button.btn__ora {
+      display: none;
+}

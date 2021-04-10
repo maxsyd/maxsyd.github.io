@@ -1,0 +1,107 @@
+
+.main_p_nm{
+  border-bottom: 1px solid #0069b0;
+}
+
+.main_p_nm  .navbar-nav>li>a {
+    color: #0069b0;
+}
+.main_p_nm .navbar-nav_left>li>a {
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin-right: 6px;
+}
+.main_p_nm .navbar-toggle .icon-bar {
+    background-color: #2C6CA7;
+}
+
+.navbar.main_p_nm {
+    margin-bottom: 0px;
+}
+
+
+.navbar.main_p_nm  {
+    border-radius: 0px;
+}
+
+@media (min-width: 768px){
+  .main_p_nm .navbar-brand img{
+  width: 152px;
+    height: 64px;
+}
+.main_p_nm .navbar-brand {
+    height: 84px;
+    padding: 10px 15px;
+}
+.main_p_nm ul.nav.navbar-nav_left {
+    margin-top: 18px;
+}.main_p_nm ul.nav.navbar-nav_right {
+    margin-top: 14px;
+}
+.main_p_nm .navbar-nav_right>li>a {
+    padding: 10px 28px;
+    border-radius: 20px;
+    margin-left: 6px;
+}
+.login_border{
+box-shadow: inset 0 0 0px 1px #0069b0b3;}
+.login_border:hover{
+  box-shadow: inset 0 0 0px 1px #0069b0;
+}
+.main_p_nm .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background: #0069b0;
+  }
+.main_p_nm .navbar-nav>li>a:focus, .main_p_nm .navbar-nav>li>a:hover {
+    color: #0069b0;
+  box-shadow: inset 0 0 0px 1px #0069b0;
+  background: #fff;
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 767px){
+.main_p_nm .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #2C6CA7;
+  background-color: #F6F6F6;
+  border-bottom: 1px solid #2C6CA7;
+}
+.main_p_nm .navbar-brand img {
+    height: 40px;
+}
+.main_p_nm .navbar-brand {
+    height: 64px;
+}
+.main_p_nm ul.nav.navbar-nav_left {
+text-align: center;
+}
+.main_p_nm ul.nav.navbar-nav_right {
+text-align: center;
+}
+.main_p_nm ul.nav.navbar-nav_right li a{
+color: #00aeef;
+padding: 4px 15px;
+}
+.main_p_nm .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 6px 15px;
+    font-size: 18px;
+    line-height: 20px;
+
+}
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+.main_p_nm ul.nav.navbar-nav_right {
+    margin: 6px 0;
+}
+}

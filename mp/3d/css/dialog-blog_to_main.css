@@ -1,0 +1,173 @@
+*{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+.opensans{
+font-family: 'Open Sans', sans-serif;
+}
+
+.modal-dialog.blog-to-main .header{
+    background: url(../img/dilog_blog_to_main/cover_bl-to-main.png) no-repeat 50% 50%;
+    background-size: cover;
+    padding: 10px 14px;
+    height: 158px;
+}
+
+
+.modal-dialog.blog-to-main .header .modal-title {
+    margin: 80px 0 0;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+.modal-dialog.blog-to-main .color2C6CA7{
+  color: #2C6CA7;
+}
+.modal-dialog.blog-to-main .header span{
+    font-weight: 300;
+    font-size: 28px;
+}
+.fs18{
+    font-size: 18px;
+}
+ul.blog-to-main_list{
+    list-style: none;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 40px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
+}
+ul.blog-to-main_list li{
+    padding-left: 25px;
+    background: url(../img/dilog_blog_to_main/li_right.svg)
+    no-repeat left 50%;
+    background-size: 14px 14px;
+    font-weight: 300;
+}
+.modal-dialog.blog-to-main .modal-content {
+    padding-bottom: 20px;
+}
+.modal-dialog.blog-to-main a.btn__ora {
+    color: #fff;
+background: #F96915;
+    border-radius: 50px;
+    padding: 6px 16px;
+    font-size: 16px;
+    font-weight: 300;
+        margin: 1em;
+}
+
+.modal-dialog.blog-to-main a.btn__ora:hover {
+    color: #fff;
+background: #F95C00;
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, .5);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, .5);
+    text-decoration: none;
+
+}
+
+.mar_1em {
+    margin: 1em;
+}
+.mar_top_40 {
+    margin-top: 40px;
+}
+
+p.mar_1em.text-center.color2C6CA7.fs18{
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul.blog-to-main_list li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+@media (max-width: 767px){
+.modal-dialog.blog-to-main .header .modal-title {
+    margin: 80px 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+ul.blog-to-main_list {
+    font-size: 14px;
+    line-height: 34px;
+}
+ul.blog-to-main_list li {
+    padding-left: 20px;
+    background: url(../img/dilog_blog_to_main/li_right.svg) no-repeat left 50%;
+    background-size: 14px 14px;
+}
+
+
+
+}
+
+
+
+@media (max-width: 350px){
+.modal-dialog.blog-to-main .header .modal-title {
+    margin: 40px 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+ul.blog-to-main_list {
+    font-size: 12px;
+    line-height: 28px;
+}
+ul.blog-to-main_list li {
+    padding-left: 20px;
+    background: url(../img/dilog_blog_to_main/li_right.svg) no-repeat left 50%;
+    background-size: 12px 12px;
+}
+
+}
+
+@media (min-width: 767px){
+.modal-dialog.blog-to-main {
+    width: 694px;
+}
+.modal-dialog.blog-to-main .header .modal-title {
+    font-size: 44px;
+    text-transform: inherit;
+    margin: 89px 0 0;
+}
+p.mar_1em.text-center.color2C6CA7.fs18 {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+ul.blog-to-main_list li {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+}
+.modal-dialog.blog-to-main .header {
+    background: url(../img/dilog_blog_to_main/cover_bl-to-main.png) no-repeat 50% 28%;
+    background-size: cover;
+    padding: 10px 14px;
+    height: 180px;
+}
+.modal-dialog.blog-to-main a.btn__ora {
+    margin: 0px;
+}
+p.mar_1em {
+    margin: 20px 20px 30px 20px;
+}
+.modal-dialog.blog-to-main .header span {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 28px;
+}
+}

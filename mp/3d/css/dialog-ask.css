@@ -1,0 +1,18 @@
+@media (max-width: 767px){
+.m_ask_us .modal-header {
+    height: 180px;
+}
+.m_ask_us h3 {
+    font-size: 28px;
+}
+.m_ask_us p {
+    font-size: 14px;
+}
+}
+
+
+@media (min-width: 993px){
+.m_ask_us .modal-header {
+    height: 268px;
+}
+}

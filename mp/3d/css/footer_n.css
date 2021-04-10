@@ -1,0 +1,98 @@
+.footer20 {
+    color: #fff;
+    font-weight: 300;
+}
+.footer_com_links {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0288d1;
+}
+.footer_com_links a {
+    color: #fff;
+    font-weight: 300;
+}
+.footer_main_inf {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #357EAA;
+    text-align: left;
+}
+.footer20_soc_links {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-left: 2px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.soc_links_icon_fb {
+    background: url(../img/page_main/entypo-social_facebook-with-circle.png) no-repeat center center;
+    background-size: contain;
+}
+.soc_links_icon_inst {
+    background: url(../img/page_main/whh_circleinstagram.png) no-repeat center center;
+    background-size: contain;
+}
+.soc_links_icon_tw {
+    background: url(../img/page_main/entypo-social_twitter-with-circle.png) no-repeat center center;
+    background-size: contain;
+}
+.soc_links_icon_li {
+    background: url(../img/page_main/entypo-social_linkedin-with-circle.png) no-repeat center center;
+    background-size: contain;
+}
+.footer20_directions ul li a {
+    color: #fff;
+}
+.footer20_directions ul {
+    list-style: none;
+    line-height: 24px;
+    height: 100%;
+}
+.footer20_bottom {
+    display: block;
+    background: #17427E;
+    padding: 15px 0;
+}
+.footer20_bottom ul li a{
+     color: #fff;
+}
+.footer20_bottom ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0;
+    padding-inline-start: 0px;
+}
+.footer20_bottom ul li {
+    display: inline-block;
+    border-right: 1px solid #fff;
+    padding-right: 14px;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.footer20_bottom li:last-child {
+    border-right: 0;
+}
+.footer_main_inf [class*="col-"] {
+    margin-bottom: 0px;
+}
+
+
+@media (max-width: 767px){
+.footer_com_links {
+    text-align: left;
+}
+.footer_com_links [class*="col-"] {
+    margin-bottom: 6px;
+}
+}
+
+@media (min-width: 992px){
+.l_r_border{
+  border-right: 1px solid #fff;
+}
+.l_r_border{
+  border-left: 1px solid #fff;
+}
+}

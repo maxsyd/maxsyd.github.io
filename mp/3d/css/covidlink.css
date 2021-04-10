@@ -1,0 +1,13 @@
+.covidlink{
+    background: #0069b0;
+    text-align: center;
+}
+.covidlink a{
+    text-align: center;
+    color: #fff;
+    line-height: 26px;
+}
+.covidlink a span{
+    color: #fff;
+    text-decoration: underline;
+}
